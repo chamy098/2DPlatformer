@@ -1,0 +1,144 @@
+[gd_scene load_steps=12 format=3 uid="uid://xkhsx1v8a4po"]
+
+[ext_resource type="Texture2D" uid="uid://6bicsux422dd" path="res://art/HUD/square_border_big_full_empty.png" id="1_0cfpn"]
+[ext_resource type="Script" path="res://Levels/HUD/PlayerHUD/PlayerHUD.gd" id="1_aeywy"]
+[ext_resource type="Texture2D" uid="uid://b8qj6rfvrm4sl" path="res://art/HUD/con1.png" id="2_bau12"]
+[ext_resource type="Texture2D" uid="uid://blhwxocf0onwm" path="res://art/HUD/hp_bar_border.png" id="3_62bba"]
+[ext_resource type="FontFile" uid="uid://cb83yrv2pmc4x" path="res://font/Xolonium-Regular.ttf" id="4_h7u1c"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0xsb2"]
+bg_color = Color(0.258824, 0.694118, 0, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="LabelSettings" id="LabelSettings_3xumr"]
+font = ExtResource("4_h7u1c")
+font_size = 10
+outline_size = 2
+outline_color = Color(0, 0, 0, 1)
+shadow_size = 0
+shadow_color = Color(0, 0, 0, 0.615686)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7bmpd"]
+bg_color = Color(0.490196, 0.490196, 0.490196, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="LabelSettings" id="LabelSettings_s4yre"]
+font = ExtResource("4_h7u1c")
+font_size = 10
+outline_size = 2
+outline_color = Color(0, 0, 0, 1)
+shadow_size = 0
+shadow_color = Color(0, 0, 0, 0.615686)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_01qhr"]
+bg_color = Color(0.0705882, 0.392157, 0.694118, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="LabelSettings" id="LabelSettings_lumqj"]
+font = ExtResource("4_h7u1c")
+font_size = 10
+outline_size = 2
+outline_color = Color(0, 0, 0, 1)
+
+[node name="PlayerHud" type="PanelContainer"]
+script = ExtResource("1_aeywy")
+
+[node name="HBoxContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+
+[node name="Character" type="Sprite2D" parent="HBoxContainer"]
+position = Vector2(28.5, -23.75)
+scale = Vector2(1.75, 1.60127)
+texture = ExtResource("1_0cfpn")
+
+[node name="Sprite2D" type="Sprite2D" parent="HBoxContainer/Character"]
+position = Vector2(1, 0)
+scale = Vector2(1.03125, 1)
+texture = ExtResource("2_bau12")
+
+[node name="Health" type="Sprite2D" parent="HBoxContainer"]
+position = Vector2(228, -60.5)
+scale = Vector2(2.09449, 1.95)
+texture = ExtResource("3_62bba")
+
+[node name="ProgressBar" type="ProgressBar" parent="HBoxContainer/Health"]
+offset_left = -60.0
+offset_top = -6.0
+offset_right = 60.0
+offset_bottom = 7.0
+theme_override_colors/font_color = Color(0.227451, 0.654902, 0, 1)
+theme_override_styles/fill = SubResource("StyleBoxFlat_0xsb2")
+value = 70.0
+show_percentage = false
+
+[node name="Label" type="Label" parent="HBoxContainer/Health/ProgressBar"]
+layout_mode = 0
+offset_right = 119.0
+offset_bottom = 13.0
+theme_override_constants/shadow_outline_size = 3
+text = "70/100"
+label_settings = SubResource("LabelSettings_3xumr")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Armor" type="Sprite2D" parent="HBoxContainer"]
+position = Vector2(228, -23)
+scale = Vector2(2.09449, 1.95)
+texture = ExtResource("3_62bba")
+
+[node name="ProgressBar" type="ProgressBar" parent="HBoxContainer/Armor"]
+offset_left = -60.0
+offset_top = -6.0
+offset_right = 60.0
+offset_bottom = 7.0
+theme_override_colors/font_color = Color(0.227451, 0.654902, 0, 1)
+theme_override_styles/fill = SubResource("StyleBoxFlat_7bmpd")
+value = 70.0
+show_percentage = false
+
+[node name="Label" type="Label" parent="HBoxContainer/Armor/ProgressBar"]
+layout_mode = 0
+offset_left = -0.157841
+offset_top = 0.358973
+offset_right = 118.842
+offset_bottom = 13.359
+theme_override_constants/shadow_outline_size = 3
+text = "30/50"
+label_settings = SubResource("LabelSettings_s4yre")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Mana" type="Sprite2D" parent="HBoxContainer"]
+position = Vector2(228, 13)
+scale = Vector2(2.09449, 1.95)
+texture = ExtResource("3_62bba")
+
+[node name="ProgressBar" type="ProgressBar" parent="HBoxContainer/Mana"]
+offset_left = -61.0
+offset_top = -7.0
+offset_right = 60.0
+offset_bottom = 6.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_01qhr")
+value = 60.0
+show_percentage = false
+
+[node name="Label" type="Label" parent="HBoxContainer/Mana/ProgressBar"]
+layout_mode = 0
+offset_right = 121.0
+offset_bottom = 13.0
+text = "60/100"
+label_settings = SubResource("LabelSettings_lumqj")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="HBoxContainer/Mana/ProgressBar"]
+wait_time = 3.0

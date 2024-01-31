@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cx70hb18xasdu"]
+
+[ext_resource type="FontFile" uid="uid://cb83yrv2pmc4x" path="res://font/Xolonium-Regular.ttf" id="1_8cbb6"]
+
+[node name="HitLabelNew" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("1_8cbb6")
+text = "1000"

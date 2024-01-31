@@ -1,0 +1,71 @@
+[gd_scene load_steps=5 format=3 uid="uid://bblodtm23k66p"]
+
+[ext_resource type="Script" path="res://Misc/Inventory/Inventory.gd" id="1_dexbq"]
+[ext_resource type="Texture2D" uid="uid://b866vcqcy3lj8" path="res://Misc/Inventory/art/vertical_bg.png" id="2_a1ctf"]
+[ext_resource type="FontFile" uid="uid://cb83yrv2pmc4x" path="res://font/Xolonium-Regular.ttf" id="3_obapy"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_tcwde"]
+font = ExtResource("3_obapy")
+font_size = 21
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[node name="EquipInventory" type="PanelContainer"]
+offset_right = 84.0
+offset_bottom = 295.0
+size_flags_horizontal = 8
+script = ExtResource("1_dexbq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.64055, 1.14512)
+texture = ExtResource("2_a1ctf")
+centered = false
+
+[node name="HeadLabel" type="Label" parent="Sprite2D"]
+offset_left = 85.0
+offset_top = 35.0
+offset_right = 196.0
+offset_bottom = 82.0
+text = "Helmet"
+label_settings = SubResource("LabelSettings_tcwde")
+vertical_alignment = 1
+
+[node name="Body" type="Label" parent="Sprite2D"]
+offset_left = 85.0
+offset_top = 123.0
+offset_right = 196.0
+offset_bottom = 169.999
+text = "Body"
+label_settings = SubResource("LabelSettings_tcwde")
+vertical_alignment = 1
+
+[node name="Weapon" type="Label" parent="Sprite2D"]
+offset_left = 85.0
+offset_top = 211.0
+offset_right = 196.0
+offset_bottom = 258.0
+text = "Weapon"
+label_settings = SubResource("LabelSettings_tcwde")
+vertical_alignment = 1
+
+[node name="Spell" type="Label" parent="Sprite2D"]
+offset_left = 85.0
+offset_top = 299.0
+offset_right = 196.0
+offset_bottom = 346.0
+text = "Spell"
+label_settings = SubResource("LabelSettings_tcwde")
+vertical_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+size_flags_horizontal = 8
+theme_override_constants/margin_left = 37
+theme_override_constants/margin_top = 33
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 8
+
+[node name="ItemGrid" type="GridContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+theme_override_constants/v_separation = 37

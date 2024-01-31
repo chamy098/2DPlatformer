@@ -1,0 +1,69 @@
+[gd_scene load_steps=5 format=3 uid="uid://bwrtn03io5jj0"]
+
+[ext_resource type="Script" path="res://Levels/EscapeMenu/EscapeMenu.gd" id="1_cl0ai"]
+[ext_resource type="Texture2D" uid="uid://dkyw6xg3d3ixg" path="res://Levels/GameOver/begie_border2.png" id="1_g3gmp"]
+[ext_resource type="FontFile" uid="uid://cb83yrv2pmc4x" path="res://font/Xolonium-Regular.ttf" id="2_8561g"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_pe614"]
+font = ExtResource("2_8561g")
+font_size = 62
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[node name="EscapeMenu" type="Control"]
+process_mode = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cl0ai")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="Panel"]
+position = Vector2(0, -1.5)
+scale = Vector2(6.13107, 8.15217)
+texture = ExtResource("1_g3gmp")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "PAUSE"
+label_settings = SubResource("LabelSettings_pe614")
+
+[node name="Save" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Save
+"
+
+[node name="Load" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Load"
+
+[node name="Resume" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Resume"
+
+[node name="Exit" type="Button" parent="Panel/VBoxContainer"]
+layout_mode = 2
+text = "Exit"
+
+[connection signal="pressed" from="Panel/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="Panel/VBoxContainer/Exit" to="." method="_on_exit_pressed"]

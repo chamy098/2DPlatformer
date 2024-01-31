@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="ItemDataEquip" load_steps=4 format=3 uid="uid://d3002dvj7mlfg"]
+
+[ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Item_data_equip.gd" id="1_enwq4"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rnssq"]
+load_path = "res://.godot/imported/item_list.png-4ddcb0fa3f540bcceb4d8639b681eebe.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lrlp0"]
+atlas = SubResource("CompressedTexture2D_rnssq")
+region = Rect2(4032, 0, 32, 32)
+
+[resource]
+script = ExtResource("1_enwq4")
+health = 10
+armor = 0
+attack = 0
+magic = 5
+movement_speed = 0
+type = 0
+name = "Armor"
+description = "Health + 10
+Magic +5"
+stackable = false
+texture = SubResource("AtlasTexture_lrlp0")

@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://bn51fcrgt02g8"]
+
+[ext_resource type="Texture2D" uid="uid://dvj7ggwnd4va" path="res://art/coin/gold_1.png" id="1_0c32p"]
+[ext_resource type="Script" path="res://Levels/HUD/CoinHUD/CoinHUD.gd" id="1_so3e3"]
+[ext_resource type="FontFile" uid="uid://cb83yrv2pmc4x" path="res://font/Xolonium-Regular.ttf" id="2_y2syt"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_clrag"]
+font = ExtResource("2_y2syt")
+font_size = 47
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[node name="CoinHud" type="CanvasLayer"]
+script = ExtResource("1_so3e3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(55, 47)
+scale = Vector2(0.922619, 0.845238)
+texture = ExtResource("1_0c32p")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 110.0
+offset_top = 18.0
+offset_right = 209.0
+offset_bottom = 75.0
+text = "0"
+label_settings = SubResource("LabelSettings_clrag")

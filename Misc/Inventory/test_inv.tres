@@ -1,0 +1,42 @@
+[gd_resource type="Resource" script_class="InventoryData" load_steps=13 format=3 uid="uid://dl2q4034or5gy"]
+
+[ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Inventory_data.gd" id="1_0quun"]
+[ext_resource type="Resource" uid="uid://d0aq6yu33b21a" path="res://Misc/Consumables/apple.tres" id="2_fbmge"]
+[ext_resource type="Resource" uid="uid://cgi4rw3ncnfw4" path="res://Misc/Consumables/health_potion.tres" id="2_nlltv"]
+[ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Slot_data.gd" id="3_oohjv"]
+[ext_resource type="Resource" uid="uid://d3002dvj7mlfg" path="res://Misc/Consumables/armor.tres" id="5_5pm1k"]
+[ext_resource type="Resource" uid="uid://d3s6px565toxq" path="res://Misc/Consumables/speed_potion.tres" id="6_44p3l"]
+
+[sub_resource type="Resource" id="Resource_hfyto"]
+script = ExtResource("3_oohjv")
+item_data = ExtResource("2_nlltv")
+quantity = 3
+
+[sub_resource type="Resource" id="Resource_j52ge"]
+script = ExtResource("3_oohjv")
+item_data = ExtResource("2_nlltv")
+quantity = 1
+
+[sub_resource type="Resource" id="Resource_3m2r7"]
+script = ExtResource("3_oohjv")
+item_data = ExtResource("2_fbmge")
+quantity = 6
+
+[sub_resource type="Resource" id="Resource_c1rvg"]
+script = ExtResource("3_oohjv")
+item_data = ExtResource("5_5pm1k")
+quantity = 1
+
+[sub_resource type="Resource" id="Resource_uxv5v"]
+script = ExtResource("3_oohjv")
+item_data = ExtResource("2_fbmge")
+quantity = 6
+
+[sub_resource type="Resource" id="Resource_hmkt0"]
+script = ExtResource("3_oohjv")
+item_data = ExtResource("6_44p3l")
+quantity = 1
+
+[resource]
+script = ExtResource("1_0quun")
+slot_datas = Array[ExtResource("3_oohjv")]([SubResource("Resource_hfyto"), SubResource("Resource_j52ge"), SubResource("Resource_3m2r7"), SubResource("Resource_c1rvg"), SubResource("Resource_uxv5v"), SubResource("Resource_hmkt0"), null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null])

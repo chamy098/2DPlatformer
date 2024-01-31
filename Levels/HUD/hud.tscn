@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://cy4prm78r6sh5"]
+
+[ext_resource type="Script" path="res://Levels/HUD/hud.gd" id="1_mxtu8"]
+[ext_resource type="PackedScene" uid="uid://xkhsx1v8a4po" path="res://Levels/HUD/PlayerHUD/PlayerHUD.tscn" id="5_0xnik"]
+[ext_resource type="PackedScene" uid="uid://bn51fcrgt02g8" path="res://Levels/HUD/CoinHUD/CoinHUD.tscn" id="6_n1lab"]
+[ext_resource type="PackedScene" uid="uid://wqntohwdce6f" path="res://Misc/Inventory/HotBarInventory/HotBarInventory.tscn" id="9_7abrg"]
+
+[node name="Hud" type="CanvasLayer"]
+script = ExtResource("1_mxtu8")
+
+[node name="PlayerHud" parent="." instance=ExtResource("5_0xnik")]
+offset_left = 42.0
+offset_top = 1026.0
+offset_right = 42.0
+offset_bottom = 1026.0
+
+[node name="HotBarInventory" parent="." instance=ExtResource("9_7abrg")]
+offset_left = 709.0
+offset_top = 976.0
+offset_right = 749.0
+offset_bottom = 1016.0
+size_flags_vertical = 8
+
+[node name="CoinHud" parent="." instance=ExtResource("6_n1lab")]

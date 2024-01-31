@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3px8nw1axvp0"]
+
+[ext_resource type="Script" path="res://Misc/Inventory/Inventory.gd" id="1_dy211"]
+[ext_resource type="Texture2D" uid="uid://6u1lkwnadcph" path="res://Misc/Inventory/art/beige_bg.png" id="2_fe2bn"]
+
+[node name="Inventory" type="PanelContainer"]
+script = ExtResource("1_dy211")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.13, 1.4)
+texture = ExtResource("2_fe2bn")
+centered = false
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 19
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 8
+
+[node name="ItemGrid" type="GridContainer" parent="MarginContainer"]
+layout_mode = 2
+columns = 7

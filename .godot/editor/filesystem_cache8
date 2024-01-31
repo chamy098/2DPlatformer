@@ -1,0 +1,878 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1706741175
+GameManager.gd::GDScript::-1::1706619107::0::1::::GameManager<>Node<>::
+GameManager.tscn::PackedScene::3585602619787965505::1706689381::0::1::::<><>::res://GameManager.gd<>uid://dq4y3kfwlojoc::::res://Levels/Level2/Level2.tscn<>uid://bwrtn03io5jj0::::res://Levels/EscapeMenu/EscapeMenu.tscn
+icon.svg::CompressedTexture2D::5065446411061464988::1702538652::1702538657::1::::<><>::
+::res://art/::1702720639
+chest.png::CompressedTexture2D::3711925258138812580::1702623448::1702623500::1::::<><>::
+TX Chest Animation.png::CompressedTexture2D::2713895896754228779::1702538787::1702538787::1::::<><>::
+TX Tileset Ground.png::CompressedTexture2D::761482383456234956::1702538773::1702538778::1::::<><>::
+TX Village Props.png::CompressedTexture2D::764884972800867613::1702538776::1702538780::1::::<><>::
+::res://art/Assets/::1706266440
+Buildings.png::CompressedTexture2D::6431513745577158333::1664890552::1702539050::1::::<><>::
+castle_tiles.png::CompressedTexture2D::7339269886949488851::1706265238::1706265242::1::::<><>::
+chest.png::CompressedTexture2D::6279740548258101023::1702623458::1702623458::1::::<><>::
+grass_tiles.png::CompressedTexture2D::2637775652759640524::1706225860::1706225865::1::::<><>::
+Ground_grass_0000_tile.png::CompressedTexture2D::7682720823195199976::1706225742::1706225743::1::::<><>::
+Hive.png::CompressedTexture2D::8454199751534734478::1664890412::1702539050::1::::<><>::
+Interior-01.png::CompressedTexture2D::7632030798705832326::1667234130::1702539050::1::::<><>::
+Props-Rocks.png::CompressedTexture2D::6664810733184149053::1664890204::1702539050::1::::<><>::
+Tiles.png::CompressedTexture2D::9151347425944484514::1667234174::1702539050::1::::<><>::
+Tree-Assets.png::CompressedTexture2D::1459027215844155313::1667234190::1702539050::1::::<><>::
+water_tiles.png::CompressedTexture2D::1072124994852468537::1706266433::1706266440::1::::<><>::
+::res://art/Assets Magic Cursors Pack/::1702720421
+PUT A RATING!.jpg::CompressedTexture2D::5438724203393957863::1616307903::1702720421::1::::<><>::
+Thank you!.jpg::CompressedTexture2D::3451803050066755531::1605422701::1702720421::1::::<><>::
+::res://art/Assets Magic Cursors Pack/24x24px/::1702720421
+Cursor Add.png::CompressedTexture2D::7342674803457069017::1616511950::1702720421::1::::<><>::
+Cursor Attack Enemy.png::CompressedTexture2D::8363388726034861871::1616511956::1702720421::1::::<><>::
+Cursor Attack Friends.png::CompressedTexture2D::7301993372577085077::1616511956::1702720421::1::::<><>::
+Cursor Attack Green.png::CompressedTexture2D::4515270928652297233::1616511956::1702720421::1::::<><>::
+Cursor Attack Red.png::CompressedTexture2D::3881517750222805588::1616511956::1702720421::1::::<><>::
+Cursor Attack Yellow.png::CompressedTexture2D::209600709909184590::1616511956::1702720421::1::::<><>::
+Cursor Build Green.png::CompressedTexture2D::130855234184890262::1616511956::1702720421::1::::<><>::
+Cursor Build Red.png::CompressedTexture2D::3642958393232671319::1616511955::1702720421::1::::<><>::
+Cursor Cannot Target.png::CompressedTexture2D::6121951677680177786::1616511955::1702720421::1::::<><>::
+Cursor Cannot Use.png::CompressedTexture2D::5363808377681166170::1616511955::1702720421::1::::<><>::
+Cursor Chop Green.png::CompressedTexture2D::3345596831327428666::1616511955::1702720421::1::::<><>::
+Cursor Chop Red.png::CompressedTexture2D::9193448678293970695::1616511955::1702720421::1::::<><>::
+Cursor Default Enemy.png::CompressedTexture2D::7594074886888765361::1616511955::1702720421::1::::<><>::
+Cursor Default Friends.png::CompressedTexture2D::7635436030861888938::1616511955::1702720421::1::::<><>::
+Cursor Default.png::CompressedTexture2D::1775173245042274044::1616511955::1702720421::1::::<><>::
+Cursor impossible.png::CompressedTexture2D::4665838759037796967::1616511955::1702720421::1::::<><>::
+Cursor Magic Use Blue.png::CompressedTexture2D::748629451587549152::1616511955::1702720421::1::::<><>::
+Cursor Magic Use Green.png::CompressedTexture2D::1771866147737175474::1616511955::1702720421::1::::<><>::
+Cursor Magic Use Red.png::CompressedTexture2D::5074149774940970176::1616511955::1702720421::1::::<><>::
+Cursor Magic Use Violet.png::CompressedTexture2D::1831311844517468667::1616511955::1702720421::1::::<><>::
+Cursor Mini Attack Green-1.png::CompressedTexture2D::1655432871333382396::1616511954::1702720421::1::::<><>::
+Cursor Mini Attack Green.png::CompressedTexture2D::624803080145712314::1616511954::1702720421::1::::<><>::
+Cursor Mini Attack Red-1.png::CompressedTexture2D::8305297376487694730::1616511954::1702720421::1::::<><>::
+Cursor Mini Attack Red.png::CompressedTexture2D::1193900807026171768::1616511954::1702720421::1::::<><>::
+Cursor Mini Attack Yellow.png::CompressedTexture2D::1307004073498244504::1616511954::1702720421::1::::<><>::
+Cursor Mini Build Green.png::CompressedTexture2D::1833364816349023641::1616511954::1702720421::1::::<><>::
+Cursor Mini Build Red.png::CompressedTexture2D::7181970318227874803::1616511954::1702720421::1::::<><>::
+Cursor Mini Cannot.png::CompressedTexture2D::1569119057269490497::1616511954::1702720421::1::::<><>::
+Cursor Mini Chop Green.png::CompressedTexture2D::7483258981608757057::1616511954::1702720421::1::::<><>::
+Cursor Mini Chop Red.png::CompressedTexture2D::2825561500607312763::1616511954::1702720421::1::::<><>::
+Cursor Mini Default Add.png::CompressedTexture2D::7982426602199787627::1616511954::1702720421::1::::<><>::
+Cursor Mini Default Substract.png::CompressedTexture2D::6371007110857332165::1616511954::1702720421::1::::<><>::
+Cursor Mini Eat Food.png::CompressedTexture2D::7389065562824306209::1616511954::1702720421::1::::<><>::
+Cursor Mini Impossible.png::CompressedTexture2D::8250201749339467993::1616511953::1702720421::1::::<><>::
+Cursor Mini Move Down.png::CompressedTexture2D::1493992919315605371::1616511953::1702720421::1::::<><>::
+Cursor Mini Move Left.png::CompressedTexture2D::446257807202702000::1616511953::1702720421::1::::<><>::
+Cursor Mini Move Right.png::CompressedTexture2D::7934430687386267296::1616511953::1702720421::1::::<><>::
+Cursor Mini Move Up.png::CompressedTexture2D::5277287160792282505::1616511953::1702720421::1::::<><>::
+Cursor Mini Pickaxe Green.png::CompressedTexture2D::4564211206630885282::1616511953::1702720421::1::::<><>::
+Cursor Mini Pickaxe Red.png::CompressedTexture2D::514628119000029077::1616511953::1702720421::1::::<><>::
+Cursor Mini Possible.png::CompressedTexture2D::3601746807016230231::1616511953::1702720421::1::::<><>::
+Cursor Mini Potion Blue.png::CompressedTexture2D::8017834951516723315::1616511953::1702720421::1::::<><>::
+Cursor Mini Potion Green.png::CompressedTexture2D::8770588630494189869::1616511953::1702720421::1::::<><>::
+Cursor Mini Potion Purple.png::CompressedTexture2D::64179008795579531::1616511953::1702720421::1::::<><>::
+Cursor Mini Potion Red.png::CompressedTexture2D::2571632854512383995::1616511953::1702720421::1::::<><>::
+Cursor Mini Question Green.png::CompressedTexture2D::4373708677983460312::1616511952::1702720421::1::::<><>::
+Cursor Mini Question Yellow.png::CompressedTexture2D::96868517885727280::1616511952::1702720421::1::::<><>::
+Cursor Mini Scythe Green.png::CompressedTexture2D::8286137175032314129::1616511952::1702720421::1::::<><>::
+Cursor Mini Scythe Red.png::CompressedTexture2D::2122536989051139125::1616511952::1702720421::1::::<><>::
+Cursor Mini Settings Green.png::CompressedTexture2D::2262029962911804833::1616511952::1702720421::1::::<><>::
+Cursor Mini Settings Red.png::CompressedTexture2D::8726149010507790793::1616511952::1702720421::1::::<><>::
+Cursor Mini Settings Yellow.png::CompressedTexture2D::725134110710773553::1616511952::1702720421::1::::<><>::
+Cursor Mini Shield Green.png::CompressedTexture2D::1080483623823035509::1616511952::1702720421::1::::<><>::
+Cursor Mini Shield Red.png::CompressedTexture2D::18528124345285639::1616511952::1702720421::1::::<><>::
+Cursor Move Down.png::CompressedTexture2D::470699033478483628::1616511952::1702720421::1::::<><>::
+Cursor Move Left.png::CompressedTexture2D::5404645883314753142::1616511952::1702720421::1::::<><>::
+Cursor Move Right.png::CompressedTexture2D::8120589403833318678::1616511952::1702720421::1::::<><>::
+Cursor Move Up.png::CompressedTexture2D::8952796960668769598::1616511952::1702720421::1::::<><>::
+Cursor Pickaxe Green.png::CompressedTexture2D::5330821853446280973::1616511951::1702720421::1::::<><>::
+Cursor Pickaxe Red.png::CompressedTexture2D::3026605554233599065::1616511951::1702720421::1::::<><>::
+Cursor possible.png::CompressedTexture2D::5192425108224085987::1616511951::1702720421::1::::<><>::
+Cursor Potion Blue.png::CompressedTexture2D::8084843071279366613::1616511951::1702720421::1::::<><>::
+Cursor Potion Green.png::CompressedTexture2D::4657940280715227756::1616511951::1702720421::1::::<><>::
+Cursor Potion Purple.png::CompressedTexture2D::1133500634786359646::1616511951::1702720421::1::::<><>::
+Cursor Potion Red.png::CompressedTexture2D::5646922115089069785::1616511951::1702720421::1::::<><>::
+Cursor Question Green.png::CompressedTexture2D::4555171460385910779::1616511951::1702720421::1::::<><>::
+Cursor Question Yellow.png::CompressedTexture2D::6139450897551156387::1616511951::1702720421::1::::<><>::
+Cursor Scythe Green.png::CompressedTexture2D::1974302192411078516::1616511951::1702720421::1::::<><>::
+Cursor Scythe Red.png::CompressedTexture2D::3719468254408134928::1616511951::1702720421::1::::<><>::
+Cursor Settings Green.png::CompressedTexture2D::4497528040794052823::1616511951::1702720421::1::::<><>::
+Cursor Settings Red.png::CompressedTexture2D::5720295192874127443::1616511950::1702720421::1::::<><>::
+Cursor Settings Yellow.png::CompressedTexture2D::3927093612643595849::1616511950::1702720421::1::::<><>::
+Cursor Shield Green.png::CompressedTexture2D::6165078427627793623::1616511950::1702720421::1::::<><>::
+Cursor Shield Red.png::CompressedTexture2D::1845172616518139137::1616511950::1702720421::1::::<><>::
+Cursor Substract.png::CompressedTexture2D::8422906851814632589::1616511950::1702720421::1::::<><>::
+Cursor Target Move A.png::CompressedTexture2D::728461837617539973::1616511950::1702720421::1::::<><>::
+Cursor Target Move B.png::CompressedTexture2D::3910770961329763627::1616511950::1702720421::1::::<><>::
+::res://art/Assets Magic Cursors Pack/28x28px/::1702720421
+Cursor Add.png::CompressedTexture2D::2513601994508812585::1616511915::1702720421::1::::<><>::
+Cursor Attack Enemy.png::CompressedTexture2D::3799869127251887921::1616511921::1702720421::1::::<><>::
+Cursor Attack Friends.png::CompressedTexture2D::941537965251820601::1616511921::1702720421::1::::<><>::
+Cursor Attack Green.png::CompressedTexture2D::6931290620983536089::1616511921::1702720421::1::::<><>::
+Cursor Attack Red.png::CompressedTexture2D::2194794475097095367::1616511921::1702720421::1::::<><>::
+Cursor Attack Yellow.png::CompressedTexture2D::5866646514989162326::1616511921::1702720421::1::::<><>::
+Cursor Build Green.png::CompressedTexture2D::4016796643758231471::1616511921::1702720421::1::::<><>::
+Cursor Build Red.png::CompressedTexture2D::988399416196326198::1616511921::1702720421::1::::<><>::
+Cursor Cannot Target.png::CompressedTexture2D::1614094044128508136::1616511921::1702720421::1::::<><>::
+Cursor Cannot Use.png::CompressedTexture2D::1199466682416509457::1616511921::1702720421::1::::<><>::
+Cursor Chop Green.png::CompressedTexture2D::5435343932464174452::1616511921::1702720421::1::::<><>::
+Cursor Chop Red.png::CompressedTexture2D::8525923470929822841::1616511920::1702720421::1::::<><>::
+Cursor Default Enemy.png::CompressedTexture2D::8497867990017018656::1616511920::1702720421::1::::<><>::
+Cursor Default Friends.png::CompressedTexture2D::7382269752782210811::1616511920::1702720421::1::::<><>::
+Cursor Default.png::CompressedTexture2D::5446611037317357333::1616511920::1702720421::1::::<><>::
+Cursor impossible.png::CompressedTexture2D::2347088690594947983::1616511920::1702720421::1::::<><>::
+Cursor Magic Use Blue.png::CompressedTexture2D::7920007021020876592::1616511920::1702720421::1::::<><>::
+Cursor Magic Use Green.png::CompressedTexture2D::8859790719240034012::1616511920::1702720421::1::::<><>::
+Cursor Magic Use Red.png::CompressedTexture2D::2034061905496694035::1616511920::1702720421::1::::<><>::
+Cursor Magic Use Violet.png::CompressedTexture2D::5597381780454423927::1616511920::1702720421::1::::<><>::
+Cursor Mini Attack Green-1.png::CompressedTexture2D::6593829091711338819::1616511920::1702720421::1::::<><>::
+Cursor Mini Attack Green.png::CompressedTexture2D::6737749559883802830::1616511920::1702720421::1::::<><>::
+Cursor Mini Attack Red-1.png::CompressedTexture2D::4608016116631739011::1616511920::1702720421::1::::<><>::
+Cursor Mini Attack Red.png::CompressedTexture2D::7757408533079545172::1616511920::1702720421::1::::<><>::
+Cursor Mini Attack Yellow.png::CompressedTexture2D::8196073803732858617::1616511919::1702720421::1::::<><>::
+Cursor Mini Build Green.png::CompressedTexture2D::2107089025013558134::1616511919::1702720421::1::::<><>::
+Cursor Mini Build Red.png::CompressedTexture2D::179715497937185397::1616511919::1702720421::1::::<><>::
+Cursor Mini Cannot.png::CompressedTexture2D::4413352586970725059::1616511919::1702720421::1::::<><>::
+Cursor Mini Chop Green.png::CompressedTexture2D::5082349047837192756::1616511919::1702720421::1::::<><>::
+Cursor Mini Chop Red.png::CompressedTexture2D::7845276092317417079::1616511919::1702720421::1::::<><>::
+Cursor Mini Default Add.png::CompressedTexture2D::3171810995169947939::1616511919::1702720421::1::::<><>::
+Cursor Mini Default Substract.png::CompressedTexture2D::4518389300193824707::1616511919::1702720421::1::::<><>::
+Cursor Mini Eat Food.png::CompressedTexture2D::2458080303836066432::1616511919::1702720421::1::::<><>::
+Cursor Mini Impossible.png::CompressedTexture2D::1556852970122960789::1616511919::1702720421::1::::<><>::
+Cursor Mini Move Down.png::CompressedTexture2D::8081865546665527677::1616511919::1702720421::1::::<><>::
+Cursor Mini Move Left.png::CompressedTexture2D::5651542603238653521::1616511919::1702720421::1::::<><>::
+Cursor Mini Move Right.png::CompressedTexture2D::3266220852645525624::1616511918::1702720421::1::::<><>::
+Cursor Mini Move Up.png::CompressedTexture2D::1245897723402383569::1616511918::1702720421::1::::<><>::
+Cursor Mini Pickaxe Green.png::CompressedTexture2D::8194639158683880646::1616511918::1702720421::1::::<><>::
+Cursor Mini Pickaxe Red.png::CompressedTexture2D::6724415765030723330::1616511918::1702720421::1::::<><>::
+Cursor Mini Possible.png::CompressedTexture2D::510521313499303342::1616511918::1702720421::1::::<><>::
+Cursor Mini Potion Blue.png::CompressedTexture2D::5080021197520419532::1616511918::1702720421::1::::<><>::
+Cursor Mini Potion Green.png::CompressedTexture2D::777770824398898011::1616511918::1702720421::1::::<><>::
+Cursor Mini Potion Purple.png::CompressedTexture2D::1231206845692443671::1616511918::1702720421::1::::<><>::
+Cursor Mini Potion Red.png::CompressedTexture2D::5042412393047616882::1616511918::1702720421::1::::<><>::
+Cursor Mini Question Green.png::CompressedTexture2D::189021287163298375::1616511918::1702720421::1::::<><>::
+Cursor Mini Question Yellow.png::CompressedTexture2D::1153331089880730985::1616511918::1702720421::1::::<><>::
+Cursor Mini Scythe Green.png::CompressedTexture2D::3496599034130029812::1616511918::1702720421::1::::<><>::
+Cursor Mini Scythe Red.png::CompressedTexture2D::8547964330039449248::1616511918::1702720421::1::::<><>::
+Cursor Mini Settings Green.png::CompressedTexture2D::84367080507682746::1616511917::1702720421::1::::<><>::
+Cursor Mini Settings Red.png::CompressedTexture2D::853166748817807371::1616511917::1702720421::1::::<><>::
+Cursor Mini Settings Yellow.png::CompressedTexture2D::8103013362896026627::1616511917::1702720421::1::::<><>::
+Cursor Mini Shield Green.png::CompressedTexture2D::5459752989734603624::1616511917::1702720421::1::::<><>::
+Cursor Mini Shield Red.png::CompressedTexture2D::3438544802654961488::1616511917::1702720421::1::::<><>::
+Cursor Move Down.png::CompressedTexture2D::2944213251144910477::1616511917::1702720421::1::::<><>::
+Cursor Move Left.png::CompressedTexture2D::1680946852572934701::1616511917::1702720421::1::::<><>::
+Cursor Move Right.png::CompressedTexture2D::5948045250159324220::1616511917::1702720421::1::::<><>::
+Cursor Move Up.png::CompressedTexture2D::2461875140514720165::1616511917::1702720421::1::::<><>::
+Cursor Pickaxe Green.png::CompressedTexture2D::9194648649992928716::1616511917::1702720421::1::::<><>::
+Cursor Pickaxe Red.png::CompressedTexture2D::5141602597697637342::1616511917::1702720421::1::::<><>::
+Cursor possible.png::CompressedTexture2D::7395908245507945773::1616511917::1702720421::1::::<><>::
+Cursor Potion Blue.png::CompressedTexture2D::2356200666245062721::1616511916::1702720421::1::::<><>::
+Cursor Potion Green.png::CompressedTexture2D::1829316944836418258::1616511916::1702720421::1::::<><>::
+Cursor Potion Purple.png::CompressedTexture2D::7936815485713744497::1616511916::1702720421::1::::<><>::
+Cursor Potion Red.png::CompressedTexture2D::1612268225846823884::1616511916::1702720421::1::::<><>::
+Cursor Question Green.png::CompressedTexture2D::1283295700488673774::1616511916::1702720421::1::::<><>::
+Cursor Question Yellow.png::CompressedTexture2D::7027786440940983380::1616511916::1702720421::1::::<><>::
+Cursor Scythe Green.png::CompressedTexture2D::1173287704043551913::1616511916::1702720421::1::::<><>::
+Cursor Scythe Red.png::CompressedTexture2D::4576322349592103566::1616511916::1702720421::1::::<><>::
+Cursor Settings Green.png::CompressedTexture2D::5563734207162409616::1616511916::1702720421::1::::<><>::
+Cursor Settings Red.png::CompressedTexture2D::3191705778009765748::1616511916::1702720421::1::::<><>::
+Cursor Settings Yellow.png::CompressedTexture2D::250600466526469016::1616511916::1702720421::1::::<><>::
+Cursor Shield Green.png::CompressedTexture2D::2743467883745128197::1616511916::1702720421::1::::<><>::
+Cursor Shield Red.png::CompressedTexture2D::5959921176488912793::1616511916::1702720421::1::::<><>::
+Cursor Substract.png::CompressedTexture2D::6592142286596221697::1616511915::1702720421::1::::<><>::
+Cursor Target Move A.png::CompressedTexture2D::8128058276108070168::1616511915::1702720421::1::::<><>::
+Cursor Target Move B.png::CompressedTexture2D::2790768345310706011::1616511915::1702720421::1::::<><>::
+::res://art/Assets Magic Cursors Pack/36x36px/::1702720421
+Cursor Add.png::CompressedTexture2D::3837457016837659620::1616511881::1702720421::1::::<><>::
+Cursor Attack Enemy.png::CompressedTexture2D::1930269628739677661::1616511887::1702720421::1::::<><>::
+Cursor Attack Friends.png::CompressedTexture2D::3867107708077581782::1616511887::1702720421::1::::<><>::
+Cursor Attack Green.png::CompressedTexture2D::7246682949412126647::1616511887::1702720421::1::::<><>::
+Cursor Attack Red.png::CompressedTexture2D::810700707488105636::1616511887::1702720421::1::::<><>::
+Cursor Attack Yellow.png::CompressedTexture2D::1290747391362808750::1616511887::1702720421::1::::<><>::
+Cursor Build Green.png::CompressedTexture2D::6206264169794215564::1616511887::1702720421::1::::<><>::
+Cursor Build Red.png::CompressedTexture2D::6681137313399328249::1616511886::1702720421::1::::<><>::
+Cursor Cannot Target.png::CompressedTexture2D::8030793999082936661::1616511886::1702720421::1::::<><>::
+Cursor Cannot Use.png::CompressedTexture2D::905574524856008951::1616511886::1702720421::1::::<><>::
+Cursor Chop Green.png::CompressedTexture2D::8922499347203886197::1616511886::1702720421::1::::<><>::
+Cursor Chop Red.png::CompressedTexture2D::3868352009079523832::1616511886::1702720421::1::::<><>::
+Cursor Default Enemy.png::CompressedTexture2D::8429650069985697087::1616511886::1702720421::1::::<><>::
+Cursor Default Friends.png::CompressedTexture2D::6042904455958131250::1616511886::1702720421::1::::<><>::
+Cursor Default.png::CompressedTexture2D::2497565689663112164::1616511886::1702720421::1::::<><>::
+Cursor impossible.png::CompressedTexture2D::269220369002361950::1616511886::1702720421::1::::<><>::
+Cursor Magic Use Blue.png::CompressedTexture2D::4778306858413819955::1616511886::1702720421::1::::<><>::
+Cursor Magic Use Green.png::CompressedTexture2D::3962109705513869252::1616511886::1702720421::1::::<><>::
+Cursor Magic Use Red.png::CompressedTexture2D::5519818523873401246::1616511886::1702720421::1::::<><>::
+Cursor Magic Use Violet.png::CompressedTexture2D::4709949823213003494::1616511886::1702720421::1::::<><>::
+Cursor Mini Attack Green-1.png::CompressedTexture2D::3634703043157418247::1616511885::1702720421::1::::<><>::
+Cursor Mini Attack Green.png::CompressedTexture2D::365644426174685733::1616511885::1702720421::1::::<><>::
+Cursor Mini Attack Red-1.png::CompressedTexture2D::8704980090463385601::1616511885::1702720421::1::::<><>::
+Cursor Mini Attack Red.png::CompressedTexture2D::2768350829231130562::1616511885::1702720421::1::::<><>::
+Cursor Mini Attack Yellow.png::CompressedTexture2D::8856119946545264736::1616511885::1702720421::1::::<><>::
+Cursor Mini Build Green.png::CompressedTexture2D::6795866280177004658::1616511885::1702720421::1::::<><>::
+Cursor Mini Build Red.png::CompressedTexture2D::1509243277536187656::1616511885::1702720421::1::::<><>::
+Cursor Mini Cannot.png::CompressedTexture2D::211409348476237258::1616511885::1702720421::1::::<><>::
+Cursor Mini Chop Green.png::CompressedTexture2D::2651616146461765063::1616511885::1702720421::1::::<><>::
+Cursor Mini Chop Red.png::CompressedTexture2D::5794639264308619895::1616511885::1702720421::1::::<><>::
+Cursor Mini Default Add.png::CompressedTexture2D::5474081765878646877::1616511885::1702720421::1::::<><>::
+Cursor Mini Default Substract.png::CompressedTexture2D::3008282357529891575::1616511885::1702720421::1::::<><>::
+Cursor Mini Eat Food.png::CompressedTexture2D::4655226813685704037::1616511884::1702720421::1::::<><>::
+Cursor Mini Impossible.png::CompressedTexture2D::3557080152796363319::1616511884::1702720421::1::::<><>::
+Cursor Mini Move Down.png::CompressedTexture2D::3052874530259108091::1616511884::1702720421::1::::<><>::
+Cursor Mini Move Left.png::CompressedTexture2D::5397624108051188054::1616511884::1702720421::1::::<><>::
+Cursor Mini Move Right.png::CompressedTexture2D::5349578285640948787::1616511884::1702720421::1::::<><>::
+Cursor Mini Move Up.png::CompressedTexture2D::2545179959943474354::1616511884::1702720421::1::::<><>::
+Cursor Mini Pickaxe Green.png::CompressedTexture2D::7219861748819994036::1616511884::1702720421::1::::<><>::
+Cursor Mini Pickaxe Red.png::CompressedTexture2D::8085591911447241076::1616511884::1702720421::1::::<><>::
+Cursor Mini Possible.png::CompressedTexture2D::6782630149422568019::1616511884::1702720421::1::::<><>::
+Cursor Mini Potion Blue.png::CompressedTexture2D::6159283930159053592::1616511884::1702720421::1::::<><>::
+Cursor Mini Potion Green.png::CompressedTexture2D::2770570944894667757::1616511884::1702720421::1::::<><>::
+Cursor Mini Potion Purple.png::CompressedTexture2D::5163554724535248547::1616511884::1702720421::1::::<><>::
+Cursor Mini Potion Red.png::CompressedTexture2D::7999299961822638795::1616511884::1702720421::1::::<><>::
+Cursor Mini Question Green.png::CompressedTexture2D::8958116365973982775::1616511883::1702720421::1::::<><>::
+Cursor Mini Question Yellow.png::CompressedTexture2D::7136431954613294162::1616511883::1702720421::1::::<><>::
+Cursor Mini Scythe Green.png::CompressedTexture2D::5337128176228900747::1616511883::1702720421::1::::<><>::
+Cursor Mini Scythe Red.png::CompressedTexture2D::8601149388282412692::1616511883::1702720421::1::::<><>::
+Cursor Mini Settings Green.png::CompressedTexture2D::9131584638139349249::1616511883::1702720421::1::::<><>::
+Cursor Mini Settings Red.png::CompressedTexture2D::2426867135685898717::1616511883::1702720421::1::::<><>::
+Cursor Mini Settings Yellow.png::CompressedTexture2D::8126680024814609927::1616511883::1702720421::1::::<><>::
+Cursor Mini Shield Green.png::CompressedTexture2D::1859950745935420416::1616511883::1702720421::1::::<><>::
+Cursor Mini Shield Red.png::CompressedTexture2D::5063896325248730387::1616511883::1702720421::1::::<><>::
+Cursor Move Down.png::CompressedTexture2D::7930548710795553960::1616511883::1702720421::1::::<><>::
+Cursor Move Left.png::CompressedTexture2D::6856265598161493786::1616511883::1702720421::1::::<><>::
+Cursor Move Right.png::CompressedTexture2D::130346760222596177::1616511883::1702720421::1::::<><>::
+Cursor Move Up.png::CompressedTexture2D::2827013559588072866::1616511882::1702720421::1::::<><>::
+Cursor Pickaxe Green.png::CompressedTexture2D::904295341467063761::1616511882::1702720421::1::::<><>::
+Cursor Pickaxe Red.png::CompressedTexture2D::2359754165510773453::1616511882::1702720421::1::::<><>::
+Cursor possible.png::CompressedTexture2D::8337406498937727782::1616511882::1702720421::1::::<><>::
+Cursor Potion Blue.png::CompressedTexture2D::2022852753257159254::1616511882::1702720421::1::::<><>::
+Cursor Potion Green.png::CompressedTexture2D::6245119256103774621::1616511882::1702720421::1::::<><>::
+Cursor Potion Purple.png::CompressedTexture2D::3542775023650697649::1616511882::1702720421::1::::<><>::
+Cursor Potion Red.png::CompressedTexture2D::8266842723139657123::1616511882::1702720421::1::::<><>::
+Cursor Question Green.png::CompressedTexture2D::7339943394167979909::1616511882::1702720421::1::::<><>::
+Cursor Question Yellow.png::CompressedTexture2D::543861967159161539::1616511882::1702720421::1::::<><>::
+Cursor Scythe Green.png::CompressedTexture2D::9008003374733395333::1616511882::1702720421::1::::<><>::
+Cursor Scythe Red.png::CompressedTexture2D::3992748682635274673::1616511882::1702720421::1::::<><>::
+Cursor Settings Green.png::CompressedTexture2D::3291663840015404140::1616511882::1702720421::1::::<><>::
+Cursor Settings Red.png::CompressedTexture2D::147246255960345733::1616511881::1702720421::1::::<><>::
+Cursor Settings Yellow.png::CompressedTexture2D::1863585660597118479::1616511881::1702720421::1::::<><>::
+Cursor Shield Green.png::CompressedTexture2D::6796206729645292457::1616511881::1702720421::1::::<><>::
+Cursor Shield Red.png::CompressedTexture2D::6639533240785623423::1616511881::1702720421::1::::<><>::
+Cursor Substract.png::CompressedTexture2D::2407795640041755046::1616511881::1702720421::1::::<><>::
+Cursor Target Move A.png::CompressedTexture2D::9132264195738999890::1616511881::1702720421::1::::<><>::
+Cursor Target Move B.png::CompressedTexture2D::1695242146104540527::1616511881::1702720421::1::::<><>::
+::res://art/Assets Magic Cursors Pack/48x48px/::1702720421
+Cursor Add.png::CompressedTexture2D::2871612188789303870::1616511845::1702720421::1::::<><>::
+Cursor Attack Enemy.png::CompressedTexture2D::2481155589362827873::1616511852::1702720421::1::::<><>::
+Cursor Attack Friends.png::CompressedTexture2D::8121328090814221210::1616511852::1702720421::1::::<><>::
+Cursor Attack Green.png::CompressedTexture2D::8801945604026766277::1616511851::1702720421::1::::<><>::
+Cursor Attack Red.png::CompressedTexture2D::2496779065933256726::1616511851::1702720421::1::::<><>::
+Cursor Attack Yellow.png::CompressedTexture2D::6823717791282591126::1616511851::1702720421::1::::<><>::
+Cursor Build Green.png::CompressedTexture2D::5653258675886570130::1616511851::1702720421::1::::<><>::
+Cursor Build Red.png::CompressedTexture2D::8990254672797763971::1616511851::1702720421::1::::<><>::
+Cursor Cannot Target.png::CompressedTexture2D::1116099130594117140::1616511851::1702720421::1::::<><>::
+Cursor Cannot Use.png::CompressedTexture2D::1168955286887924295::1616511851::1702720421::1::::<><>::
+Cursor Chop Green.png::CompressedTexture2D::55573749310290840::1616511851::1702720421::1::::<><>::
+Cursor Chop Red.png::CompressedTexture2D::3548643912222002867::1616511851::1702720421::1::::<><>::
+Cursor Default Enemy.png::CompressedTexture2D::4780000854752523754::1616511851::1702720421::1::::<><>::
+Cursor Default Friends.png::CompressedTexture2D::1947834596000260332::1616511851::1702720421::1::::<><>::
+Cursor Default.png::CompressedTexture2D::2940115600136579359::1616511851::1702720421::1::::<><>::
+Cursor impossible.png::CompressedTexture2D::3773253262575262743::1616511850::1702720421::1::::<><>::
+Cursor Magic Use Blue.png::CompressedTexture2D::6265540955845400858::1616511850::1702720421::1::::<><>::
+Cursor Magic Use Green.png::CompressedTexture2D::37278737357780033::1616511850::1702720421::1::::<><>::
+Cursor Magic Use Red.png::CompressedTexture2D::5629650042543909751::1616511850::1702720421::1::::<><>::
+Cursor Magic Use Violet.png::CompressedTexture2D::3377216466430503198::1616511850::1702720421::1::::<><>::
+Cursor Mini Attack Green-1.png::CompressedTexture2D::3378609870400584722::1616511850::1702720421::1::::<><>::
+Cursor Mini Attack Green.png::CompressedTexture2D::8165811154298058186::1616511850::1702720421::1::::<><>::
+Cursor Mini Attack Red-1.png::CompressedTexture2D::4116890508735341354::1616511850::1702720421::1::::<><>::
+Cursor Mini Attack Red.png::CompressedTexture2D::1713212652963288438::1616511850::1702720421::1::::<><>::
+Cursor Mini Attack Yellow.png::CompressedTexture2D::5065969562162217157::1616511850::1702720421::1::::<><>::
+Cursor Mini Build Green.png::CompressedTexture2D::681733649431624814::1616511850::1702720421::1::::<><>::
+Cursor Mini Build Red.png::CompressedTexture2D::3106238255965315002::1616511850::1702720421::1::::<><>::
+Cursor Mini Cannot.png::CompressedTexture2D::7542498827788198903::1616511850::1702720421::1::::<><>::
+Cursor Mini Chop Green.png::CompressedTexture2D::2146805226507173713::1616511849::1702720421::1::::<><>::
+Cursor Mini Chop Red.png::CompressedTexture2D::8845913737439724424::1616511849::1702720421::1::::<><>::
+Cursor Mini Default Add.png::CompressedTexture2D::766284713653260889::1616511849::1702720421::1::::<><>::
+Cursor Mini Default Substract.png::CompressedTexture2D::8328101813973784151::1616511849::1702720421::1::::<><>::
+Cursor Mini Eat Food.png::CompressedTexture2D::2721841353634650938::1616511849::1702720421::1::::<><>::
+Cursor Mini Impossible.png::CompressedTexture2D::5648198674428544045::1616511849::1702720421::1::::<><>::
+Cursor Mini Move Down.png::CompressedTexture2D::2270238581088854213::1616511849::1702720421::1::::<><>::
+Cursor Mini Move Left.png::CompressedTexture2D::8755122937729104935::1616511849::1702720421::1::::<><>::
+Cursor Mini Move Right.png::CompressedTexture2D::7566847359755077272::1616511849::1702720421::1::::<><>::
+Cursor Mini Move Up.png::CompressedTexture2D::2492846384168409248::1616511849::1702720421::1::::<><>::
+Cursor Mini Pickaxe Green.png::CompressedTexture2D::3618658221020514018::1616511849::1702720421::1::::<><>::
+Cursor Mini Pickaxe Red.png::CompressedTexture2D::1662537493111131088::1616511849::1702720421::1::::<><>::
+Cursor Mini Possible.png::CompressedTexture2D::294708128095599643::1616511848::1702720420::1::::<><>::
+Cursor Mini Potion Blue.png::CompressedTexture2D::107172180450559780::1616511848::1702720420::1::::<><>::
+Cursor Mini Potion Green.png::CompressedTexture2D::5462291992265880003::1616511848::1702720420::1::::<><>::
+Cursor Mini Potion Purple.png::CompressedTexture2D::2057242103987739373::1616511848::1702720420::1::::<><>::
+Cursor Mini Potion Red.png::CompressedTexture2D::8839969581661381875::1616511848::1702720420::1::::<><>::
+Cursor Mini Question Green.png::CompressedTexture2D::5881888519178242931::1616511848::1702720420::1::::<><>::
+Cursor Mini Question Yellow.png::CompressedTexture2D::7345863539135941586::1616511848::1702720420::1::::<><>::
+Cursor Mini Scythe Green.png::CompressedTexture2D::8381367250177498493::1616511848::1702720420::1::::<><>::
+Cursor Mini Scythe Red.png::CompressedTexture2D::3110454620237098603::1616511848::1702720420::1::::<><>::
+Cursor Mini Settings Green.png::CompressedTexture2D::7177030880002768574::1616511848::1702720420::1::::<><>::
+Cursor Mini Settings Red.png::CompressedTexture2D::8130293303926590026::1616511848::1702720420::1::::<><>::
+Cursor Mini Settings Yellow.png::CompressedTexture2D::1914068302575319047::1616511848::1702720420::1::::<><>::
+Cursor Mini Shield Green.png::CompressedTexture2D::3183862103272547710::1616511847::1702720420::1::::<><>::
+Cursor Mini Shield Red.png::CompressedTexture2D::1134682175461004207::1616511847::1702720420::1::::<><>::
+Cursor Move Down.png::CompressedTexture2D::5614846059329125542::1616511847::1702720420::1::::<><>::
+Cursor Move Left.png::CompressedTexture2D::3756326037837837389::1616511847::1702720420::1::::<><>::
+Cursor Move Right.png::CompressedTexture2D::5448654447957122300::1616511847::1702720420::1::::<><>::
+Cursor Move Up.png::CompressedTexture2D::2803974184586086150::1616511847::1702720420::1::::<><>::
+Cursor Pickaxe Green.png::CompressedTexture2D::2707135751058434589::1616511847::1702720420::1::::<><>::
+Cursor Pickaxe Red.png::CompressedTexture2D::5850735541262509848::1616511847::1702720420::1::::<><>::
+Cursor possible.png::CompressedTexture2D::1740646896446490330::1616511847::1702720420::1::::<><>::
+Cursor Potion Blue.png::CompressedTexture2D::154706334255610804::1616511847::1702720420::1::::<><>::
+Cursor Potion Green.png::CompressedTexture2D::338711356963597709::1616511847::1702720420::1::::<><>::
+Cursor Potion Purple.png::CompressedTexture2D::5373519695064208787::1616511847::1702720420::1::::<><>::
+Cursor Potion Red.png::CompressedTexture2D::8939530380792894773::1616511846::1702720420::1::::<><>::
+Cursor Question Green.png::CompressedTexture2D::5738506003872406758::1616511846::1702720420::1::::<><>::
+Cursor Question Yellow.png::CompressedTexture2D::6683372910160134892::1616511846::1702720420::1::::<><>::
+Cursor Scythe Green.png::CompressedTexture2D::3873695632748807050::1616511846::1702720420::1::::<><>::
+Cursor Scythe Red.png::CompressedTexture2D::3077230968580127263::1616511846::1702720420::1::::<><>::
+Cursor Settings Green.png::CompressedTexture2D::7339443296363540883::1616511846::1702720420::1::::<><>::
+Cursor Settings Red.png::CompressedTexture2D::211708706489768858::1616511846::1702720420::1::::<><>::
+Cursor Settings Yellow.png::CompressedTexture2D::3147784772605049715::1616511846::1702720420::1::::<><>::
+Cursor Shield Green.png::CompressedTexture2D::1710947112722380979::1616511846::1702720420::1::::<><>::
+Cursor Shield Red.png::CompressedTexture2D::5391857962757582201::1616511846::1702720420::1::::<><>::
+Cursor Substract.png::CompressedTexture2D::6496793202930292625::1616511846::1702720420::1::::<><>::
+Cursor Target Move A.png::CompressedTexture2D::3501232482081967161::1616511846::1702720420::1::::<><>::
+Cursor Target Move B.png::CompressedTexture2D::1749496500194386987::1616511846::1702720420::1::::<><>::
+::res://art/Assets Magic Cursors Pack/64x64px/::1702720420
+Cursor Add.png::CompressedTexture2D::2123145833729008755::1616511813::1702720420::1::::<><>::
+Cursor Attack Enemy.png::CompressedTexture2D::6964020110614108877::1616511820::1702720420::1::::<><>::
+Cursor Attack Friends.png::CompressedTexture2D::6927801326741131317::1616511819::1702720420::1::::<><>::
+Cursor Attack Green.png::CompressedTexture2D::4336258533743711623::1616511819::1702720420::1::::<><>::
+Cursor Attack Red.png::CompressedTexture2D::3182065944477605814::1616511819::1702720420::1::::<><>::
+Cursor Attack Yellow.png::CompressedTexture2D::7351349804837265754::1616511819::1702720420::1::::<><>::
+Cursor Build Green.png::CompressedTexture2D::2364506596444851023::1616511819::1702720420::1::::<><>::
+Cursor Build Red.png::CompressedTexture2D::951650056144509603::1616511819::1702720420::1::::<><>::
+Cursor Cannot Target.png::CompressedTexture2D::4739167433470429720::1616511819::1702720420::1::::<><>::
+Cursor Cannot Use.png::CompressedTexture2D::6109342143414804177::1616511819::1702720420::1::::<><>::
+Cursor Chop Green.png::CompressedTexture2D::3701266398300998728::1616511819::1702720420::1::::<><>::
+Cursor Chop Red.png::CompressedTexture2D::3984289749755213619::1616511819::1702720420::1::::<><>::
+Cursor Default Enemy.png::CompressedTexture2D::5953161277471867203::1616511819::1702720420::1::::<><>::
+Cursor Default Friends.png::CompressedTexture2D::8842048890994486679::1616511819::1702720420::1::::<><>::
+Cursor Default.png::CompressedTexture2D::4807248191255860375::1616511819::1702720420::1::::<><>::
+Cursor impossible.png::CompressedTexture2D::5391909490869069755::1616511818::1702720420::1::::<><>::
+Cursor Magic Use Blue.png::CompressedTexture2D::1057833622671850466::1616511818::1702720420::1::::<><>::
+Cursor Magic Use Green.png::CompressedTexture2D::427387709390790856::1616511818::1702720420::1::::<><>::
+Cursor Magic Use Red.png::CompressedTexture2D::8550616562959543581::1616511818::1702720420::1::::<><>::
+Cursor Magic Use Violet.png::CompressedTexture2D::8940335671475591083::1616511818::1702720420::1::::<><>::
+Cursor Mini Attack Green-1.png::CompressedTexture2D::4341934697757193810::1616511818::1702720420::1::::<><>::
+Cursor Mini Attack Green.png::CompressedTexture2D::2027403466221976483::1616511818::1702720420::1::::<><>::
+Cursor Mini Attack Red-1.png::CompressedTexture2D::2943983517605667616::1616511818::1702720420::1::::<><>::
+Cursor Mini Attack Red.png::CompressedTexture2D::6905313948467594198::1616511818::1702720420::1::::<><>::
+Cursor Mini Attack Yellow.png::CompressedTexture2D::5486166980879050884::1616511818::1702720420::1::::<><>::
+Cursor Mini Build Green.png::CompressedTexture2D::6676475681646292754::1616511818::1702720420::1::::<><>::
+Cursor Mini Build Red.png::CompressedTexture2D::2912500691159730444::1616511818::1702720420::1::::<><>::
+Cursor Mini Cannot.png::CompressedTexture2D::6144526892234737016::1616511817::1702720420::1::::<><>::
+Cursor Mini Chop Green.png::CompressedTexture2D::7705948980912733996::1616511817::1702720420::1::::<><>::
+Cursor Mini Chop Red.png::CompressedTexture2D::827037696322614055::1616511817::1702720420::1::::<><>::
+Cursor Mini Default Add.png::CompressedTexture2D::4379028729960140565::1616511817::1702720420::1::::<><>::
+Cursor Mini Default Substract.png::CompressedTexture2D::7179465455073109227::1616511817::1702720420::1::::<><>::
+Cursor Mini Eat Food.png::CompressedTexture2D::882154931320615494::1616511817::1702720420::1::::<><>::
+Cursor Mini Impossible.png::CompressedTexture2D::185180655365391279::1616511817::1702720420::1::::<><>::
+Cursor Mini Move Down.png::CompressedTexture2D::4801082768584227284::1616511817::1702720420::1::::<><>::
+Cursor Mini Move Left.png::CompressedTexture2D::2940189317657147648::1616511817::1702720420::1::::<><>::
+Cursor Mini Move Right.png::CompressedTexture2D::5945835620829523468::1616511817::1702720420::1::::<><>::
+Cursor Mini Move Up.png::CompressedTexture2D::3518061803517644162::1616511817::1702720420::1::::<><>::
+Cursor Mini Pickaxe Green.png::CompressedTexture2D::2432217677527729784::1616511817::1702720420::1::::<><>::
+Cursor Mini Pickaxe Red.png::CompressedTexture2D::2351290745479199588::1616511817::1702720420::1::::<><>::
+Cursor Mini Possible.png::CompressedTexture2D::1101722550046858897::1616511816::1702720420::1::::<><>::
+Cursor Mini Potion Blue.png::CompressedTexture2D::563473988015741077::1616511816::1702720420::1::::<><>::
+Cursor Mini Potion Green.png::CompressedTexture2D::3657580827794153551::1616511816::1702720420::1::::<><>::
+Cursor Mini Potion Purple.png::CompressedTexture2D::5371816912470081550::1616511816::1702720420::1::::<><>::
+Cursor Mini Potion Red.png::CompressedTexture2D::3828729413428220859::1616511816::1702720420::1::::<><>::
+Cursor Mini Question Green.png::CompressedTexture2D::2349844243633612649::1616511816::1702720420::1::::<><>::
+Cursor Mini Question Yellow.png::CompressedTexture2D::8565746145872613602::1616511816::1702720420::1::::<><>::
+Cursor Mini Scythe Green.png::CompressedTexture2D::8607507945487426552::1616511816::1702720420::1::::<><>::
+Cursor Mini Scythe Red.png::CompressedTexture2D::710456658504587116::1616511816::1702720420::1::::<><>::
+Cursor Mini Settings Green.png::CompressedTexture2D::1210344950324706666::1616511816::1702720420::1::::<><>::
+Cursor Mini Settings Red.png::CompressedTexture2D::8532632526247379662::1616511816::1702720420::1::::<><>::
+Cursor Mini Settings Yellow.png::CompressedTexture2D::1728600844329794499::1616511816::1702720420::1::::<><>::
+Cursor Mini Shield Green.png::CompressedTexture2D::3621692336077613585::1616511815::1702720420::1::::<><>::
+Cursor Mini Shield Red.png::CompressedTexture2D::6654126548257633280::1616511815::1702720420::1::::<><>::
+Cursor Move Down.png::CompressedTexture2D::5171234943846578275::1616511815::1702720420::1::::<><>::
+Cursor Move Left.png::CompressedTexture2D::6998211226708118050::1616511815::1702720420::1::::<><>::
+Cursor Move Right.png::CompressedTexture2D::6062529948510305267::1616511815::1702720420::1::::<><>::
+Cursor Move Up.png::CompressedTexture2D::770266368410366419::1616511815::1702720420::1::::<><>::
+Cursor Pickaxe Green.png::CompressedTexture2D::2399160553716682265::1616511815::1702720420::1::::<><>::
+Cursor Pickaxe Red.png::CompressedTexture2D::76533765584883377::1616511815::1702720420::1::::<><>::
+Cursor possible.png::CompressedTexture2D::5357027408513767770::1616511815::1702720420::1::::<><>::
+Cursor Potion Blue.png::CompressedTexture2D::5848068281086243736::1616511815::1702720420::1::::<><>::
+Cursor Potion Green.png::CompressedTexture2D::6712830868420112800::1616511815::1702720420::1::::<><>::
+Cursor Potion Purple.png::CompressedTexture2D::3480914210345163222::1616511815::1702720420::1::::<><>::
+Cursor Potion Red.png::CompressedTexture2D::6132652620388819145::1616511814::1702720420::1::::<><>::
+Cursor Question Green.png::CompressedTexture2D::2759326917920653967::1616511814::1702720420::1::::<><>::
+Cursor Question Yellow.png::CompressedTexture2D::3876743023696441384::1616511814::1702720420::1::::<><>::
+Cursor Scythe Green.png::CompressedTexture2D::6449722525320459563::1616511814::1702720420::1::::<><>::
+Cursor Scythe Red.png::CompressedTexture2D::3972349534760772336::1616511814::1702720420::1::::<><>::
+Cursor Settings Green.png::CompressedTexture2D::5410725989614766943::1616511814::1702720420::1::::<><>::
+Cursor Settings Red.png::CompressedTexture2D::4441162509357218469::1616511814::1702720420::1::::<><>::
+Cursor Settings Yellow.png::CompressedTexture2D::6516953954179582567::1616511814::1702720420::1::::<><>::
+Cursor Shield Green.png::CompressedTexture2D::5060581789474805152::1616511814::1702720420::1::::<><>::
+Cursor Shield Red.png::CompressedTexture2D::6896863748939542869::1616511814::1702720420::1::::<><>::
+Cursor Substract.png::CompressedTexture2D::5322892573165048181::1616511814::1702720420::1::::<><>::
+Cursor Target Move A.png::CompressedTexture2D::2997890488153669193::1616511814::1702720420::1::::<><>::
+Cursor Target Move B.png::CompressedTexture2D::2527294349335571246::1616511814::1702720420::1::::<><>::
+::res://art/Assets Magic Cursors Pack/96x96px/::1702720421
+Cursor Add.png::CompressedTexture2D::6980720723105248483::1616511725::1702720420::1::::<><>::
+Cursor Attack Enemy.png::CompressedTexture2D::2272362585870411052::1616511731::1702720420::1::::<><>::
+Cursor Attack Friends.png::CompressedTexture2D::4572702024524974056::1616511731::1702720420::1::::<><>::
+Cursor Attack Green.png::CompressedTexture2D::2772692556353057682::1616511730::1702720420::1::::<><>::
+Cursor Attack Red.png::CompressedTexture2D::1533645238707020754::1616511730::1702720420::1::::<><>::
+Cursor Attack Yellow.png::CompressedTexture2D::3583935418173041292::1616511730::1702720420::1::::<><>::
+Cursor Build Green.png::CompressedTexture2D::1152790764109407005::1616511730::1702720420::1::::<><>::
+Cursor Build Red.png::CompressedTexture2D::3370089619347539863::1616511730::1702720420::1::::<><>::
+Cursor Cannot Target.png::CompressedTexture2D::2147630033069874743::1616511730::1702720420::1::::<><>::
+Cursor Cannot Use.png::CompressedTexture2D::2678246143712864057::1616511730::1702720420::1::::<><>::
+Cursor Chop Green.png::CompressedTexture2D::3953091430640410377::1616511730::1702720420::1::::<><>::
+Cursor Chop Red.png::CompressedTexture2D::3516243202830658704::1616511730::1702720420::1::::<><>::
+Cursor Default Enemy.png::CompressedTexture2D::2782858702314692568::1616511730::1702720420::1::::<><>::
+Cursor Default Friends.png::CompressedTexture2D::651952058761807215::1616511730::1702720420::1::::<><>::
+Cursor Default.png::CompressedTexture2D::4295978485663931576::1616511730::1702720420::1::::<><>::
+Cursor impossible.png::CompressedTexture2D::993288318490776943::1616511730::1702720420::1::::<><>::
+Cursor Magic Use Blue.png::CompressedTexture2D::3090389219184804646::1616511729::1702720420::1::::<><>::
+Cursor Magic Use Green.png::CompressedTexture2D::3668192301342746271::1616511729::1702720420::1::::<><>::
+Cursor Magic Use Red.png::CompressedTexture2D::2874834148123066813::1616511729::1702720420::1::::<><>::
+Cursor Magic Use Violet.png::CompressedTexture2D::7277721443199366375::1616511729::1702720420::1::::<><>::
+Cursor Mini Attack Green-1.png::CompressedTexture2D::3011799728824582750::1616511729::1702720420::1::::<><>::
+Cursor Mini Attack Green.png::CompressedTexture2D::7666860174769806134::1616511729::1702720421::1::::<><>::
+Cursor Mini Attack Red-1.png::CompressedTexture2D::6380091395862213965::1616511729::1702720421::1::::<><>::
+Cursor Mini Attack Red.png::CompressedTexture2D::4496803759555710999::1616511729::1702720421::1::::<><>::
+Cursor Mini Attack Yellow.png::CompressedTexture2D::5003014102166008286::1616511729::1702720421::1::::<><>::
+Cursor Mini Build Green.png::CompressedTexture2D::1899148873030376427::1616511729::1702720421::1::::<><>::
+Cursor Mini Build Red.png::CompressedTexture2D::8187896822301623066::1616511729::1702720421::1::::<><>::
+Cursor Mini Cannot.png::CompressedTexture2D::8703227610803406983::1616511729::1702720421::1::::<><>::
+Cursor Mini Chop Green.png::CompressedTexture2D::2952562476303606940::1616511728::1702720421::1::::<><>::
+Cursor Mini Chop Red.png::CompressedTexture2D::8027004471251245666::1616511728::1702720421::1::::<><>::
+Cursor Mini Default Add.png::CompressedTexture2D::8343516501450796318::1616511728::1702720421::1::::<><>::
+Cursor Mini Default Substract.png::CompressedTexture2D::8655120292271840231::1616511728::1702720421::1::::<><>::
+Cursor Mini Eat Food.png::CompressedTexture2D::6122019626575981683::1616511728::1702720421::1::::<><>::
+Cursor Mini Impossible.png::CompressedTexture2D::701279256687828081::1616511728::1702720421::1::::<><>::
+Cursor Mini Move Down.png::CompressedTexture2D::6943115329457483658::1616511728::1702720421::1::::<><>::
+Cursor Mini Move Left.png::CompressedTexture2D::4641944330371357065::1616511728::1702720421::1::::<><>::
+Cursor Mini Move Right.png::CompressedTexture2D::2752032966871454019::1616511728::1702720421::1::::<><>::
+Cursor Mini Move Up.png::CompressedTexture2D::3863722653747718624::1616511728::1702720421::1::::<><>::
+Cursor Mini Pickaxe Green.png::CompressedTexture2D::3848871825979180762::1616511728::1702720421::1::::<><>::
+Cursor Mini Pickaxe Red.png::CompressedTexture2D::8384355059537255432::1616511728::1702720421::1::::<><>::
+Cursor Mini Possible.png::CompressedTexture2D::5061924862879479248::1616511728::1702720421::1::::<><>::
+Cursor Mini Potion Blue.png::CompressedTexture2D::5549605767381062503::1616511727::1702720421::1::::<><>::
+Cursor Mini Potion Green.png::CompressedTexture2D::5451299405534865288::1616511727::1702720421::1::::<><>::
+Cursor Mini Potion Purple.png::CompressedTexture2D::9093275617121619928::1616511727::1702720421::1::::<><>::
+Cursor Mini Potion Red.png::CompressedTexture2D::8174472588274266438::1616511727::1702720421::1::::<><>::
+Cursor Mini Question Green.png::CompressedTexture2D::8108905035917588663::1616511727::1702720421::1::::<><>::
+Cursor Mini Question Yellow.png::CompressedTexture2D::7301442722020975475::1616511727::1702720421::1::::<><>::
+Cursor Mini Scythe Green.png::CompressedTexture2D::8423463141377821640::1616511727::1702720421::1::::<><>::
+Cursor Mini Scythe Red.png::CompressedTexture2D::5995551040686710023::1616511727::1702720421::1::::<><>::
+Cursor Mini Settings Green.png::CompressedTexture2D::6465580484360494805::1616511727::1702720421::1::::<><>::
+Cursor Mini Settings Red.png::CompressedTexture2D::713230449221512974::1616511727::1702720421::1::::<><>::
+Cursor Mini Settings Yellow.png::CompressedTexture2D::7640886839800432849::1616511727::1702720421::1::::<><>::
+Cursor Mini Shield Green.png::CompressedTexture2D::6995142182242923553::1616511727::1702720421::1::::<><>::
+Cursor Mini Shield Red.png::CompressedTexture2D::6645095375129687497::1616511726::1702720421::1::::<><>::
+Cursor Move Down.png::CompressedTexture2D::7433859871549816971::1616511726::1702720421::1::::<><>::
+Cursor Move Left.png::CompressedTexture2D::7079587511373766980::1616511726::1702720421::1::::<><>::
+Cursor Move Right.png::CompressedTexture2D::5736854920125403321::1616511726::1702720421::1::::<><>::
+Cursor Move Up.png::CompressedTexture2D::1774081044827921798::1616511726::1702720421::1::::<><>::
+Cursor Pickaxe Green.png::CompressedTexture2D::3389668991083436744::1616511726::1702720421::1::::<><>::
+Cursor Pickaxe Red.png::CompressedTexture2D::8149692464726317103::1616511726::1702720421::1::::<><>::
+Cursor possible.png::CompressedTexture2D::1849059011917207978::1616511726::1702720421::1::::<><>::
+Cursor Potion Blue.png::CompressedTexture2D::2158580874388421690::1616511726::1702720421::1::::<><>::
+Cursor Potion Green.png::CompressedTexture2D::4096742505201607054::1616511726::1702720421::1::::<><>::
+Cursor Potion Purple.png::CompressedTexture2D::410757249194589709::1616511726::1702720421::1::::<><>::
+Cursor Potion Red.png::CompressedTexture2D::2729619618233250171::1616511726::1702720421::1::::<><>::
+Cursor Question Green.png::CompressedTexture2D::1245472646322401431::1616511726::1702720421::1::::<><>::
+Cursor Question Yellow.png::CompressedTexture2D::3347365149169583581::1616511725::1702720421::1::::<><>::
+Cursor Scythe Green.png::CompressedTexture2D::4472929796684581363::1616511725::1702720421::1::::<><>::
+Cursor Scythe Red.png::CompressedTexture2D::4082259676165849073::1616511725::1702720421::1::::<><>::
+Cursor Settings Green.png::CompressedTexture2D::1815640619851570902::1616511725::1702720421::1::::<><>::
+Cursor Settings Red.png::CompressedTexture2D::5371191207943689063::1616511725::1702720421::1::::<><>::
+Cursor Settings Yellow.png::CompressedTexture2D::3017949082000758225::1616511725::1702720421::1::::<><>::
+Cursor Shield Green.png::CompressedTexture2D::6775390258582558619::1616511725::1702720421::1::::<><>::
+Cursor Shield Red.png::CompressedTexture2D::4999980613856959337::1616511725::1702720421::1::::<><>::
+Cursor Substract.png::CompressedTexture2D::3132510266486407352::1616511725::1702720421::1::::<><>::
+Cursor Target Move A.png::CompressedTexture2D::6236200516727338274::1616511725::1702720421::1::::<><>::
+Cursor Target Move B.png::CompressedTexture2D::4513792729525770249::1616511725::1702720421::1::::<><>::
+::res://art/Assets Magic Cursors Pack/128x128px/::1702720421
+Cursor Add.png::CompressedTexture2D::7536646937735825805::1616510797::1702720421::1::::<><>::
+Cursor Attack Enemy.png::CompressedTexture2D::4267846057855598644::1616510795::1702720421::1::::<><>::
+Cursor Attack Friends.png::CompressedTexture2D::7267560883848129410::1616510795::1702720421::1::::<><>::
+Cursor Attack Green.png::CompressedTexture2D::1917368677758678123::1616510795::1702720421::1::::<><>::
+Cursor Attack Red.png::CompressedTexture2D::1827796020993553395::1616510795::1702720421::1::::<><>::
+Cursor Attack Yellow.png::CompressedTexture2D::5600065848639454334::1616510795::1702720421::1::::<><>::
+Cursor Build Green.png::CompressedTexture2D::8055007209666006270::1616510792::1702720421::1::::<><>::
+Cursor Build Red.png::CompressedTexture2D::8304413940387768877::1616510792::1702720421::1::::<><>::
+Cursor Cannot Target.png::CompressedTexture2D::5887900352425900813::1616510791::1702720421::1::::<><>::
+Cursor Cannot Use.png::CompressedTexture2D::6037310970625638881::1616510791::1702720421::1::::<><>::
+Cursor Chop Green.png::CompressedTexture2D::6340876461297204470::1616510794::1702720421::1::::<><>::
+Cursor Chop Red.png::CompressedTexture2D::7270309100906303377::1616510794::1702720421::1::::<><>::
+Cursor Default Enemy.png::CompressedTexture2D::2353631709546963225::1616510798::1702720421::1::::<><>::
+Cursor Default Friends.png::CompressedTexture2D::7802529125216483157::1616510798::1702720421::1::::<><>::
+Cursor Default.png::CompressedTexture2D::5343519505166977077::1616510798::1702720421::1::::<><>::
+Cursor impossible.png::CompressedTexture2D::3707014060943487945::1616510797::1702720421::1::::<><>::
+Cursor Magic Use Blue.png::CompressedTexture2D::3721077014733082749::1616510790::1702720421::1::::<><>::
+Cursor Magic Use Green.png::CompressedTexture2D::3028744149491053207::1616510791::1702720421::1::::<><>::
+Cursor Magic Use Red.png::CompressedTexture2D::5572795188309894727::1616510790::1702720421::1::::<><>::
+Cursor Magic Use Violet.png::CompressedTexture2D::5326769437387329241::1616510790::1702720421::1::::<><>::
+Cursor Mini Attack Green-1.png::CompressedTexture2D::1108090553404121561::1616511511::1702720421::1::::<><>::
+Cursor Mini Attack Green.png::CompressedTexture2D::5636488196901696610::1616511512::1702720421::1::::<><>::
+Cursor Mini Attack Red-1.png::CompressedTexture2D::6400108182728036917::1616511511::1702720421::1::::<><>::
+Cursor Mini Attack Red.png::CompressedTexture2D::4820337457484262255::1616511512::1702720421::1::::<><>::
+Cursor Mini Attack Yellow.png::CompressedTexture2D::2673433885915480753::1616511511::1702720421::1::::<><>::
+Cursor Mini Build Green.png::CompressedTexture2D::7326739112816218706::1616511509::1702720421::1::::<><>::
+Cursor Mini Build Red.png::CompressedTexture2D::3239387850251721798::1616511509::1702720421::1::::<><>::
+Cursor Mini Cannot.png::CompressedTexture2D::7700661888518206360::1616511509::1702720421::1::::<><>::
+Cursor Mini Chop Green.png::CompressedTexture2D::9013826110863938971::1616511509::1702720421::1::::<><>::
+Cursor Mini Chop Red.png::CompressedTexture2D::8135961191354077904::1616511510::1702720421::1::::<><>::
+Cursor Mini Default Add.png::CompressedTexture2D::3925953175547588959::1616511513::1702720421::1::::<><>::
+Cursor Mini Default Substract.png::CompressedTexture2D::3146706875490727993::1616511512::1702720421::1::::<><>::
+Cursor Mini Eat Food.png::CompressedTexture2D::1157754272565016569::1616511508::1702720421::1::::<><>::
+Cursor Mini Impossible.png::CompressedTexture2D::337113971926087221::1616511512::1702720421::1::::<><>::
+Cursor Mini Move Down.png::CompressedTexture2D::1421484063090610243::1616511512::1702720421::1::::<><>::
+Cursor Mini Move Left.png::CompressedTexture2D::1258471202871614313::1616511512::1702720421::1::::<><>::
+Cursor Mini Move Right.png::CompressedTexture2D::3089566718013857072::1616511512::1702720421::1::::<><>::
+Cursor Mini Move Up.png::CompressedTexture2D::3858295045892498173::1616511512::1702720421::1::::<><>::
+Cursor Mini Pickaxe Green.png::CompressedTexture2D::8495708208985051460::1616511509::1702720421::1::::<><>::
+Cursor Mini Pickaxe Red.png::CompressedTexture2D::7938199432843973938::1616511509::1702720421::1::::<><>::
+Cursor Mini Possible.png::CompressedTexture2D::8939271833571531234::1616511512::1702720420::1::::<><>::
+Cursor Mini Potion Blue.png::CompressedTexture2D::7436837788925870521::1616511509::1702720420::1::::<><>::
+Cursor Mini Potion Green.png::CompressedTexture2D::5348182829834934978::1616511509::1702720420::1::::<><>::
+Cursor Mini Potion Purple.png::CompressedTexture2D::1181132827151618316::1616511509::1702720420::1::::<><>::
+Cursor Mini Potion Red.png::CompressedTexture2D::327566724393734224::1616511509::1702720420::1::::<><>::
+Cursor Mini Question Green.png::CompressedTexture2D::3455672365398755430::1616511511::1702720421::1::::<><>::
+Cursor Mini Question Yellow.png::CompressedTexture2D::8052508705737668725::1616511511::1702720421::1::::<><>::
+Cursor Mini Scythe Green.png::CompressedTexture2D::8325793948652563718::1616511509::1702720421::1::::<><>::
+Cursor Mini Scythe Red.png::CompressedTexture2D::7511766519750192192::1616511509::1702720421::1::::<><>::
+Cursor Mini Settings Green.png::CompressedTexture2D::5083439776352627655::1616511511::1702720421::1::::<><>::
+Cursor Mini Settings Red.png::CompressedTexture2D::3195714232079547987::1616511510::1702720421::1::::<><>::
+Cursor Mini Settings Yellow.png::CompressedTexture2D::6198366613191273714::1616511510::1702720421::1::::<><>::
+Cursor Mini Shield Green.png::CompressedTexture2D::1917550626947109977::1616511512::1702720421::1::::<><>::
+Cursor Mini Shield Red.png::CompressedTexture2D::3039072895949205669::1616511512::1702720421::1::::<><>::
+Cursor Move Down.png::CompressedTexture2D::8821184438677303594::1616510797::1702720421::1::::<><>::
+Cursor Move Left.png::CompressedTexture2D::7735554801058226345::1616510797::1702720421::1::::<><>::
+Cursor Move Right.png::CompressedTexture2D::150474387661140731::1616510797::1702720421::1::::<><>::
+Cursor Move Up.png::CompressedTexture2D::1805129254087871668::1616510797::1702720421::1::::<><>::
+Cursor Pickaxe Green.png::CompressedTexture2D::4424152054105561890::1616510792::1702720421::1::::<><>::
+Cursor Pickaxe Red.png::CompressedTexture2D::5335121541191590503::1616510792::1702720421::1::::<><>::
+Cursor possible.png::CompressedTexture2D::423423758327556563::1616510797::1702720421::1::::<><>::
+Cursor Potion Blue.png::CompressedTexture2D::2814935590475187849::1616510791::1702720421::1::::<><>::
+Cursor Potion Green.png::CompressedTexture2D::1171377946728049972::1616510791::1702720421::1::::<><>::
+Cursor Potion Purple.png::CompressedTexture2D::3563640588864291959::1616510791::1702720421::1::::<><>::
+Cursor Potion Red.png::CompressedTexture2D::8719518774922330304::1616510791::1702720421::1::::<><>::
+Cursor Question Green.png::CompressedTexture2D::453843809155443214::1616510795::1702720421::1::::<><>::
+Cursor Question Yellow.png::CompressedTexture2D::6080979555655482175::1616510795::1702720421::1::::<><>::
+Cursor Scythe Green.png::CompressedTexture2D::2608899058016226122::1616510791::1702720421::1::::<><>::
+Cursor Scythe Red.png::CompressedTexture2D::5887074495149801920::1616510791::1702720421::1::::<><>::
+Cursor Settings Green.png::CompressedTexture2D::2665718284716270845::1616510794::1702720421::1::::<><>::
+Cursor Settings Red.png::CompressedTexture2D::3984264308045870857::1616510794::1702720421::1::::<><>::
+Cursor Settings Yellow.png::CompressedTexture2D::7235927410713672473::1616510794::1702720421::1::::<><>::
+Cursor Shield Green.png::CompressedTexture2D::8253476861518297934::1616510795::1702720421::1::::<><>::
+Cursor Shield Red.png::CompressedTexture2D::8887324108165010092::1616510795::1702720421::1::::<><>::
+Cursor Substract.png::CompressedTexture2D::4667386678784697729::1616510797::1702720421::1::::<><>::
+Cursor Target Move A.png::CompressedTexture2D::5248037993021800526::1616510794::1702720421::1::::<><>::
+Cursor Target Move B.png::CompressedTexture2D::1897968842884013414::1616510794::1702720421::1::::<><>::
+::res://art/Background/::1702539050
+Background.png::CompressedTexture2D::7381358843128411900::1667234846::1702539050::1::::<><>::
+::res://art/Character/::1702539044
+::res://art/Character/Attack-01/::1702539050
+Attack-01-Sheet.png::CompressedTexture2D::6509418030160616786::1657212656::1702539050::1::::<><>::
+::res://art/Character/Dead/::1702539050
+Dead-Sheet.png::CompressedTexture2D::4494352938228963605::1657215608::1702539050::1::::<><>::
+::res://art/Character/Idle/::1702539050
+Idle-Sheet.png::CompressedTexture2D::7137499923875451399::1657204076::1702539050::1::::<><>::
+::res://art/Character/Jumlp-All/::1702539050
+Jump-All-Sheet.png::CompressedTexture2D::8919496897337236987::1657215636::1702539050::1::::<><>::
+::res://art/Character/Jump/::1702539044
+::res://art/Character/Jump-End/::1702539050
+Jump-End-Sheet.png::CompressedTexture2D::8801009312798578106::1657215770::1702539050::1::::<><>::
+::res://art/Character/Jump-Start/::1702539050
+Jump-Start-Sheet.png::CompressedTexture2D::2389037473483088782::1657215716::1702539050::1::::<><>::
+::res://art/Character/Run/::1702539050
+Run-Sheet.png::CompressedTexture2D::3023505930089102642::1657204042::1702539050::1::::<><>::
+::res://art/coin/::1705670939
+cell_magic_bg.png::CompressedTexture2D::2451288045304298217::1705670938::1705670939::1::::<><>::
+gold_1.png::CompressedTexture2D::254522387515238502::1438602044::1702627720::1::::<><>::
+gold_2.png::CompressedTexture2D::3937938224518272900::1438602044::1702627720::1::::<><>::
+gold_3.png::CompressedTexture2D::3158465487789977644::1702628027::1702628035::1::::<><>::
+gold_4.png::CompressedTexture2D::7826216153131204688::1438602044::1702628035::1::::<><>::
+::res://art/cursor/::1702720642
+cursor_alias.png::CompressedTexture2D::6161979334848392621::1644334856::1702720642::1::::<><>::
+cursor_cell.png::CompressedTexture2D::7328823374969074639::1644334843::1702720642::1::::<><>::
+cursor_col_r.png::CompressedTexture2D::1323463631283657118::1644334886::1702720642::1::::<><>::
+cursor_copy.png::CompressedTexture2D::892953847678199839::1644334871::1702720642::1::::<><>::
+cursor_croshair.png::CompressedTexture2D::5472087262757141897::1644334588::1702720642::1::::<><>::
+cursor_dead.png::CompressedTexture2D::3316725153251058454::1644334973::1702720642::1::::<><>::
+cursor_default.png::CompressedTexture2D::1407509780898576916::1644334414::1702720642::1::::<><>::
+cursor_grab.png::CompressedTexture2D::5425587046767591528::1644334907::1702720642::1::::<><>::
+cursor_grabbing.png::CompressedTexture2D::6222111865780153050::1644334916::1702720642::1::::<><>::
+cursor_help.png::CompressedTexture2D::9128106509472814172::1644334575::1702720642::1::::<><>::
+cursor_move.png::CompressedTexture2D::7603512661070579142::1644334810::1702720642::1::::<><>::
+cursor_pen.png::CompressedTexture2D::1217148663364628031::1644334952::1702720642::1::::<><>::
+cursor_pick.png::CompressedTexture2D::6655511157796296815::1644334962::1702720642::1::::<><>::
+cursor_progress1.png::CompressedTexture2D::5848018217381989344::1644337866::1702720642::1::::<><>::
+cursor_progress2.png::CompressedTexture2D::2330413534898162888::1644337866::1702720642::1::::<><>::
+cursor_progress3.png::CompressedTexture2D::7796271139466894851::1644337866::1702720642::1::::<><>::
+cursor_progress4.png::CompressedTexture2D::1782539296672617904::1644337866::1702720642::1::::<><>::
+cursor_progress5.png::CompressedTexture2D::268583802902449803::1644337866::1702720642::1::::<><>::
+cursor_progress6.png::CompressedTexture2D::7333100101520051667::1644337866::1702720642::1::::<><>::
+cursor_progress7.png::CompressedTexture2D::4525141030037705439::1644337866::1702720642::1::::<><>::
+cursor_progress8.png::CompressedTexture2D::6557302432996977335::1644337866::1702720642::1::::<><>::
+cursor_re_horizontal.png::CompressedTexture2D::9125905151033531100::1644334799::1702720642::1::::<><>::
+cursor_re_vertical.png::CompressedTexture2D::6335244675152404588::1644334678::1702720642::1::::<><>::
+cursor_row_r.png::CompressedTexture2D::3192762326138116015::1644334896::1702720642::1::::<><>::
+cursor_r_diag1.png::CompressedTexture2D::5540097881959182221::1644334824::1702720642::1::::<><>::
+cursor_r_diag2.png::CompressedTexture2D::7277091733661032206::1644334834::1702720642::1::::<><>::
+cursor_select.png::CompressedTexture2D::7882957762317568159::1644334532::1702720642::1::::<><>::
+cursor_select_tap.png::CompressedTexture2D::5835662830239357313::1644334561::1702720642::1::::<><>::
+cursor_unavailable.png::CompressedTexture2D::7138318382784426475::1644334626::1702720642::1::::<><>::
+cursor_work1.png::CompressedTexture2D::389559463918685151::1644338401::1702720642::1::::<><>::
+cursor_work2.png::CompressedTexture2D::4181938128382052383::1644338401::1702720642::1::::<><>::
+cursor_work3.png::CompressedTexture2D::9134215135650158962::1644338401::1702720642::1::::<><>::
+cursor_work4.png::CompressedTexture2D::1656622767439446772::1644338401::1702720642::1::::<><>::
+cursor_work5.png::CompressedTexture2D::3543229667432459257::1644338401::1702720642::1::::<><>::
+cursor_work6.png::CompressedTexture2D::1327470578966867602::1644338401::1702720642::1::::<><>::
+cursor_work7.png::CompressedTexture2D::2762590157940065000::1644338401::1702720642::1::::<><>::
+cursor_work8.png::CompressedTexture2D::3934932364789413491::1644338401::1702720642::1::::<><>::
+cursor_zomming.png::CompressedTexture2D::5589932401428381270::1644334930::1702720642::1::::<><>::
+cursor_zoomout.png::CompressedTexture2D::3407864944396182347::1644334942::1702720642::1::::<><>::
+::res://art/HUD/::1705909775
+Base-01.png::CompressedTexture2D::3947318955847977068::1656580566::1702539050::1::::<><>::
+cell_inventory_border.png::CompressedTexture2D::5131898335688756019::1705670977::1705670978::1::::<><>::
+cell_magic_bg.png::CompressedTexture2D::1308869698538926819::1705670950::1705670950::1::::<><>::
+con1.png::CompressedTexture2D::4736285281957418035::1705671240::1705671240::1::::<><>::
+hp_bar_border.png::CompressedTexture2D::3174326193768212940::1705908915::1705908916::1::::<><>::
+scquare_border_small.png::CompressedTexture2D::1216674840442494130::1705905917::1705905917::1::::<><>::
+square_border_big.png::CompressedTexture2D::9013594826991799936::1705909775::1705909775::1::::<><>::
+square_border_big_full_empty.png::CompressedTexture2D::2178408815464257117::1705905867::1705905868::1::::<><>::
+::res://art/Mob/::1702539044
+::res://art/Mob/Boar/::1702539044
+::res://art/Mob/Boar/Hit-Vanish/::1702539050
+Hit-Sheet-Black.png::CompressedTexture2D::8309439287189895280::1664014224::1702539050::1::::<><>::
+Hit-Sheet-White.png::CompressedTexture2D::8513858960427832729::1664014254::1702539050::1::::<><>::
+Hit-Sheet.png::CompressedTexture2D::8587199100727573076::1656669542::1702539050::1::::<><>::
+::res://art/Mob/Boar/Idle/::1702539050
+Idle-Sheet-export-Back.png::CompressedTexture2D::1047390825752089902::1664014136::1702539050::1::::<><>::
+Idle-Sheet-White.png::CompressedTexture2D::2144010911423334064::1664014174::1702539050::1::::<><>::
+Idle-Sheet.png::CompressedTexture2D::8834042457420400499::1656669570::1702539050::1::::<><>::
+::res://art/Mob/Boar/Run/::1702539050
+Run-Sheet-Black.png::CompressedTexture2D::5177391932076031324::1664013952::1702539050::1::::<><>::
+Run-Sheet-White.png::CompressedTexture2D::4389361543124216454::1664014004::1702539050::1::::<><>::
+Run-Sheet.png::CompressedTexture2D::3552252017070892466::1656669590::1702539050::1::::<><>::
+::res://art/Mob/Boar/Walk/::1702539050
+Walk-Base-Sheet-White.png::CompressedTexture2D::689545428739408219::1664014092::1702539050::1::::<><>::
+Walk-Base-Sheet.png::CompressedTexture2D::6483538109304144963::1656669616::1702539050::1::::<><>::
+Walk-Base-SheetBlack.png::CompressedTexture2D::1739220057661520376::1664014046::1702539050::1::::<><>::
+::res://art/Mob/Small Bee/::1702539044
+::res://art/Mob/Small Bee/Attack/::1702539050
+Attack-Sheet.png::CompressedTexture2D::2108275252043555610::1664544146::1702539050::1::::<><>::
+::res://art/Mob/Small Bee/Fly/::1702539050
+Fly-Sheet.png::CompressedTexture2D::3404593598722212667::1664544162::1702539050::1::::<><>::
+::res://art/Mob/Small Bee/Hit/::1702539050
+Hit-Sheet.png::CompressedTexture2D::8085339109662947999::1664544182::1702539050::1::::<><>::
+::res://art/Mob/Snail/::1702539050
+all.png::CompressedTexture2D::4480529052106530977::1635502046::1702539050::1::::<><>::
+Dead-Sheet.png::CompressedTexture2D::881943090425527186::1635502046::1702539050::1::::<><>::
+Hide-Sheet.png::CompressedTexture2D::4060189994923743713::1635502046::1702539050::1::::<><>::
+walk-Sheet.png::CompressedTexture2D::1335917183442508016::1635502046::1702539050::1::::<><>::
+::res://art/Trees/::1702539050
+Background.png::CompressedTexture2D::805377094245932856::1664890680::1702539050::1::::<><>::
+Dark-Tree.png::CompressedTexture2D::3998012304325635755::1657220636::1702539050::1::::<><>::
+Golden-Tree.png::CompressedTexture2D::5531346569156397171::1657015518::1702539050::1::::<><>::
+Green-Tree.png::CompressedTexture2D::6477781644753044187::1657015032::1702539050::1::::<><>::
+Red-Tree.png::CompressedTexture2D::2928009316058104592::1657015532::1702539050::1::::<><>::
+Yellow-Tree.png::CompressedTexture2D::4649363746864887037::1657015164::1702539050::1::::<><>::
+::res://Character/::1706686174
+player_manager.gd::GDScript::-1::1706686174::0::1::::<>Node<>::
+::res://Character/Blondie/::1706613769
+Player.gd::GDScript::-1::1706613769::0::1::::Player2<>CharacterBody2D<>::
+Player.tscn::PackedScene::71322504625266023::1705666685::0::1::::<><>::res://Character/Blondie/Player.gd<>uid://cy0hftqwxks5o::::res://art/Character/Attack-01/Attack-01-Sheet.png<>uid://c8xpt0to76bal::::res://art/Character/Idle/Idle-Sheet.png<>uid://bjcux3jkoix27::::res://art/Character/Run/Run-Sheet.png<>uid://d0cw2thq31r0v::::res://art/Character/Jumlp-All/Jump-All-Sheet.png<>res://Character/Common/States/CharacterStateMachine.gd<>res://Character/Common/Sword.gd<>res://Character/Common/States/GroundState.gd<>res://Character/Common/FacingCollisionShape2D.gd<>res://Character/Common/States/AirState.gd<>res://Character/Common/States/LandingState.gd<>res://Character/Common/States/Attack.gd
+::res://Character/Common/::1706622039
+FacingCollisionShape2D.gd::GDScript::-1::1705529836::0::1::::<>CollisionShape2D<>::
+Player_stats.gd::GDScript::-1::1706212115::0::1::::PlayerStats<>Resource<>::
+StatTypeEnum.gd::GDScript::-1::1706192326::0::1::::<>RefCounted<>::
+Sword.gd::GDScript::-1::1706622039::0::1::::<>Area2D<>::
+::res://Character/Common/States/::1706613481
+AirState.gd::GDScript::-1::1705532840::0::1::::AirState<>State<>::
+Attack.gd::GDScript::-1::1705583808::0::1::::<>State<>::
+CharacterStateMachine.gd::GDScript::-1::1705582753::0::1::::CharacterStateMachine<>Node<>::
+DeathState.gd::GDScript::-1::1705585280::0::1::::<>State<>::
+GroundState.gd::GDScript::-1::1705585214::0::1::::GroundState<>State<>::
+LandingState.gd::GDScript::-1::1705529734::0::1::::LandingState<>State<>::
+State.gd::GDScript::-1::1706613481::0::1::::State<>Node<>::
+StateDebug.gd::GDScript::-1::1703054969::0::1::::<>Label<>::
+::res://Character/Knight/::1706689381
+Knight.gd::GDScript::-1::1706688630::0::1::::Player<>CharacterBody2D<>::
+Knight.tscn::PackedScene::4877853129351033937::1706689381::0::1::::<><>::uid://bfrijyj2wtp::::res://Character/Knight/Animations/attack.png<>uid://du8tobjugddru::::res://Character/Knight/Animations/idle.png<>res://Character/Knight/Knight.gd<>uid://xm08ns3blbxj::::res://Character/Knight/Animations/run.png<>uid://jdv3vcnyl4wc::::res://Character/Knight/Animations/walk.png<>uid://cwbp43l684i0c::::res://Character/Knight/Animations/jump_start.png<>uid://dyj28h56l34ad::::res://Character/Knight/Animations/jump_end.png<>uid://4wxvo8gw88ev::::res://Character/Knight/Animations/double_jump.png<>res://Character/Common/States/CharacterStateMachine.gd<>uid://cylcq7aul1ogf::::res://Character/Knight/Animations/run_attack.png<>res://Character/Common/States/GroundState.gd<>uid://5jxxdd2k6dtq::::res://Character/Knight/Animations/hurt.png<>res://Character/Common/States/AirState.gd<>uid://d0axoonumllmq::::res://Character/Knight/Animations/death.png<>res://Character/Common/States/LandingState.gd<>res://Character/Common/States/Attack.gd<>res://Character/Common/Sword.gd<>res://Character/Common/FacingCollisionShape2D.gd<>res://Character/Common/States/StateDebug.gd<>res://Character/Common/States/DeathState.gd
+::res://Character/Knight/Animations/::1705571065
+attack.png::CompressedTexture2D::2398756407880725::1705440220::1705441538::1::::<><>::
+death.png::CompressedTexture2D::8915405390312959404::1705571060::1705571065::1::::<><>::
+double_jump.png::CompressedTexture2D::2082327555206680713::1705532006::1705532012::1::::<><>::
+hurt.png::CompressedTexture2D::2125682436466756826::1705570988::1705571065::1::::<><>::
+idle.png::CompressedTexture2D::8632342081044593178::1705438896::1705441538::1::::<><>::
+jump.png::CompressedTexture2D::8992300282959024420::1705440133::1705441538::1::::<><>::
+jump_end.png::CompressedTexture2D::8864072403614089831::1705531560::1705531579::1::::<><>::
+jump_high.png::CompressedTexture2D::3318207996507724393::1705440186::1705441538::1::::<><>::
+jump_start.png::CompressedTexture2D::6320024337192113036::1705531533::1705531579::1::::<><>::
+run.png::CompressedTexture2D::1640693504625479171::1705440099::1705441538::1::::<><>::
+run_attack.png::CompressedTexture2D::6480233458353299209::1705537412::1705537417::1::::<><>::
+walk.png::CompressedTexture2D::639218891785064666::1705440055::1705441538::1::::<><>::
+::res://font/::1702631917
+Xolonium-Regular.ttf::FontFile::4912898538344507241::1702466579::1702631917::1::::<><>::
+::res://Levels/::1706614933
+::res://Levels/DeathSpace/::1706607295
+DeathSpace.gd::GDScript::-1::1706275311::0::1::::<>Area2D<>::
+DeathSpace.tscn::PackedScene::369258511561036239::1706607295::0::1::::<><>::res://Levels/DeathSpace/DeathSpace.gd
+::res://Levels/EscapeMenu/::1706689381
+EscapeMenu.gd::GDScript::-1::1706619426::0::1::::<>Control<>::
+EscapeMenu.tscn::PackedScene::3966847860453815359::1706689381::0::1::::<><>::res://Levels/EscapeMenu/EscapeMenu.gd<>uid://dkyw6xg3d3ixg::::res://Levels/GameOver/begie_border2.png<>uid://cb83yrv2pmc4x::::res://font/Xolonium-Regular.ttf
+::res://Levels/GameOver/::1705585554
+begie_border2.png::CompressedTexture2D::7912087905592166852::1705584542::1705584542::1::::<><>::
+button.png::CompressedTexture2D::1096515235745082930::1705584542::1705584542::1::::<><>::
+button_yellow.png::CompressedTexture2D::874997965180588359::1705584542::1705584542::1::::<><>::
+clock_yellow.png::CompressedTexture2D::5499422795183966009::1705584542::1705584542::1::::<><>::
+coin.png::CompressedTexture2D::3766354060640040077::1705584542::1705584542::1::::<><>::
+GameOver.gd::GDScript::-1::1705585553::0::1::::<>Control<>::
+GameOver.tscn::PackedScene::2100970267443534241::1705585554::0::1::::<><>::uid://dkyw6xg3d3ixg::::res://Levels/GameOver/begie_border2.png<>res://Levels/GameOver/GameOver.gd<>uid://cb83yrv2pmc4x::::res://font/Xolonium-Regular.ttf<>uid://pvfpfi73kfh7::::res://Levels/GameOver/button.png
+knight_loose.png::CompressedTexture2D::1763201352621828879::1705584542::1705584542::1::::<><>::
+star_small.png::CompressedTexture2D::896234857825374746::1705584542::1705584542::1::::<><>::
+::res://Levels/GameOver/art/::1705584534
+::res://Levels/HUD/::1706689381
+hud.gd::GDScript::-1::1706685395::0::1::::<>CanvasLayer<>::
+hud.tscn::PackedScene::6518182364191862268::1706689381::0::1::::<><>::res://Levels/HUD/hud.gd<>uid://xkhsx1v8a4po::::res://Levels/HUD/PlayerHUD/PlayerHUD.tscn<>uid://bn51fcrgt02g8::::res://Levels/HUD/CoinHUD/CoinHUD.tscn<>uid://wqntohwdce6f::::res://Misc/Inventory/HotBarInventory/HotBarInventory.tscn
+Hud_enum.gd::GDScript::-1::1706684987::0::1::::<>RefCounted<>::
+::res://Levels/HUD/CoinHUD/::1706513539
+CoinHUD.gd::GDScript::-1::1706219808::0::1::::<>CanvasLayer<>::
+CoinHUD.tscn::PackedScene::3362394685998160209::1706513539::0::1::::<><>::uid://dvj7ggwnd4va::::res://art/coin/gold_1.png<>res://Levels/HUD/CoinHUD/CoinHUD.gd<>uid://cb83yrv2pmc4x::::res://font/Xolonium-Regular.ttf
+::res://Levels/HUD/Hit_Label/::1706213581
+HitLabel.tscn::PackedScene::8131647320701081546::1705585554::0::1::::<><>::uid://cb83yrv2pmc4x::::res://font/Xolonium-Regular.ttf
+HitLabelNew.tscn::PackedScene::6454775378785746258::1705437705::0::1::::<><>::uid://cb83yrv2pmc4x::::res://font/Xolonium-Regular.ttf
+::res://Levels/HUD/PlayerHUD/::1706689381
+PlayerHUD.gd::GDScript::-1::1706685833::0::1::::<>PanelContainer<>::
+PlayerHUD.tscn::PackedScene::1635445593655241136::1706689381::0::1::::<><>::uid://6bicsux422dd::::res://art/HUD/square_border_big_full_empty.png<>res://Levels/HUD/PlayerHUD/PlayerHUD.gd<>uid://b8qj6rfvrm4sl::::res://art/HUD/con1.png<>uid://blhwxocf0onwm::::res://art/HUD/hp_bar_border.png<>uid://cb83yrv2pmc4x::::res://font/Xolonium-Regular.ttf
+::res://Levels/HUD/PlayerInfo/::1706614839
+PlayerInfo.gd::GDScript::-1::1706221155::0::1::::<>PanelContainer<>::
+PlayerInfo.tscn::PackedScene::7300251060186325658::1706614839::0::1::::<><>::res://Levels/HUD/PlayerInfo/PlayerInfo.gd<>uid://b866vcqcy3lj8::::res://Misc/Inventory/art/vertical_bg.png<>uid://du8tobjugddru::::res://Character/Knight/Animations/idle.png<>uid://bmo1ndthvom18::::res://Levels/HUD/PlayerInfo/Art/top_tape.png<>uid://cb83yrv2pmc4x::::res://font/Xolonium-Regular.ttf<>uid://c2h8ycb4268us::::res://Levels/HUD/PlayerInfo/Art/heart.png<>uid://b5qptp6qo0o0f::::res://Levels/HUD/PlayerInfo/Art/shield.png<>uid://ch4u8ec7po7s5::::res://Levels/HUD/PlayerInfo/Art/power.png<>uid://cvhuuids3iuwm::::res://Levels/HUD/PlayerInfo/Art/magic.png<>uid://cdjn4awi5ohec::::res://Levels/HUD/PlayerInfo/Art/speed.png
+::res://Levels/HUD/PlayerInfo/Art/::1706170472
+heart.png::CompressedTexture2D::6684437417652976070::1706170471::1706170472::1::::<><>::
+magic.png::CompressedTexture2D::6262508209473535560::1706170471::1706170472::1::::<><>::
+power.png::CompressedTexture2D::5325303713431929058::1706170471::1706170472::1::::<><>::
+shield.png::CompressedTexture2D::4526061558360583159::1706170471::1706170472::1::::<><>::
+speed.png::CompressedTexture2D::5002828441405872374::1706170471::1706170472::1::::<><>::
+top_tape.png::CompressedTexture2D::3259190140307028645::1706170171::1706170171::1::::<><>::
+::res://Levels/Level1/::1706621033
+level_1.gd::GDScript::-1::1706514568::0::1::::<>Node2D<>::
+level_1.tscn::PackedScene::8857594925688637278::1706621033::0::1::::<><>::uid://ddft5wnb7qnku::::res://art/Background/Background.png<>res://Levels/Level1/level_1.gd<>uid://k34refs5hbbo::::res://art/TX Tileset Ground.png<>uid://1tchhs2xg2oe::::res://Misc/Coin/Coin.tscn<>uid://d3m8mcp62brpi::::res://art/Assets/Tiles.png<>uid://c17qpuv5lr0e0::::res://art/Assets/Props-Rocks.png<>uid://wmgnwbmwa00::::res://Misc/Chest/Chest.tscn<>uid://bdt01ricn0dse::::res://art/Assets/grass_tiles.png<>res://Misc/Inventory/InventoryInterface.gd<>uid://cy4prm78r6sh5::::res://Levels/HUD/hud.tscn<>uid://b3px8nw1axvp0::::res://Misc/Inventory/Inventory.tscn<>uid://bpiojyuxbq4on::::res://NPC/Enemy/Snail.tscn<>uid://vuacd5iyjpqa::::res://NPC/Enemy_Bee/Bee.tscn<>uid://bdq65y40smyok::::res://Misc/Inventory/slot/Slot.tscn<>uid://b301ahaj7dwm2::::res://Misc/Pick_Up_Item/PickUpItem.tscn<>uid://6u1lkwnadcph::::res://Misc/Inventory/art/beige_bg.png<>uid://dsbexxob5p0cc::::res://NPC/Orc/Orc.tscn<>uid://bblodtm23k66p::::res://Misc/Inventory/EquipInventory.tscn<>uid://cbq4r72ln4f0t::::res://Character/Knight/Knight.tscn<>uid://b866vcqcy3lj8::::res://Misc/Inventory/art/vertical_bg.png<>uid://dl2q4034or5gy::::res://Misc/Inventory/test_inv.tres<>uid://hy0plgo5rpg5::::res://NPC/Goblin/Goblin.tscn<>uid://dcakclbwkwrhy::::res://Levels/HUD/PlayerInfo/PlayerInfo.tscn<>uid://d0aq6yu33b21a::::res://Misc/Consumables/apple.tres<>res://Misc/Inventory/data_scripts/Slot_data.gd<>res://Misc/Inventory/data_scripts/Inventory_data_equip.gd<>res://Character/Common/Player_stats.gd
+::res://Levels/Level2/::1706731808
+Level2.tscn::PackedScene::8343658248183650722::1706731808::0::1::::<><>::res://Levels/Level1/level_1.gd<>uid://bh7lmrxo7xv1t::::res://Levels/Level2/Art/Background.png<>uid://dctgx5nf5i1kx::::res://art/Assets/castle_tiles.png<>uid://oxp36ru4ovah::::res://Levels/Level2/Art/sky.png<>uid://bdt01ricn0dse::::res://art/Assets/grass_tiles.png<>uid://fi4vsumk5gmp::::res://Levels/DeathSpace/DeathSpace.tscn<>uid://dhptj3wphrj8k::::res://art/Assets/Ground_grass_0000_tile.png<>uid://cbq4r72ln4f0t::::res://Character/Knight/Knight.tscn<>uid://hy0plgo5rpg5::::res://NPC/Goblin/Goblin.tscn<>uid://pjl0h1t10vxp::::res://art/Assets/water_tiles.png<>uid://dl2q4034or5gy::::res://Misc/Inventory/test_inv.tres<>uid://wmgnwbmwa00::::res://Misc/Chest/Chest.tscn<>res://Misc/Inventory/data_scripts/Inventory_data_equip.gd<>res://Character/Common/Player_stats.gd<>uid://cy4prm78r6sh5::::res://Levels/HUD/hud.tscn<>res://Misc/Inventory/InventoryInterface.gd<>uid://b3px8nw1axvp0::::res://Misc/Inventory/Inventory.tscn<>uid://6u1lkwnadcph::::res://Misc/Inventory/art/beige_bg.png<>uid://bblodtm23k66p::::res://Misc/Inventory/EquipInventory.tscn<>uid://b866vcqcy3lj8::::res://Misc/Inventory/art/vertical_bg.png<>uid://dcakclbwkwrhy::::res://Levels/HUD/PlayerInfo/PlayerInfo.tscn<>uid://bdq65y40smyok::::res://Misc/Inventory/slot/Slot.tscn<>uid://wf8i17d5javm::::res://NPC/Ent/Ent.tscn<>uid://ltoqrylernq5::::res://NPC/Beholder/Beholder.tscn<>uid://d2i3aehbnry15::::res://NPC/Small_Dragon/Small_Dragon.tscn
+::res://Levels/Level2/Art/::1706513189
+Background.png::CompressedTexture2D::2944492922843772307::1706226488::1706226491::1::::<><>::
+sky.png::CompressedTexture2D::1031086911830228571::1706513189::1706513189::1::::<><>::
+::res://Misc/::1706621016
+::res://Misc/Chest/::1706536027
+Chest.gd::GDScript::-1::1706531790::0::1::::<>Node2D<>::
+Chest.tscn::PackedScene::46156346117528059::1706536027::0::1::::<><>::res://Misc/Chest/Chest.gd<>uid://bs5c4p5c85xea::::res://art/chest.png
+::res://Misc/Coin/::1706225534
+Coin.gd::GDScript::-1::1706225534::0::1::::<>Area2D<>::
+coin.png::CompressedTexture2D::8038800704472277824::1702627203::1702627220::1::::<><>::
+Coin.tscn::PackedScene::1864267443186535116::1706163700::0::1::::<><>::res://Misc/Coin/Coin.gd<>uid://dvj7ggwnd4va::::res://art/coin/gold_1.png<>uid://bwdtjc5y25085::::res://art/coin/gold_2.png<>uid://bk88p2xlbqcwi::::res://art/coin/gold_3.png
+::res://Misc/Consumables/::1706731774
+apple.tres::Resource/ItemData::8915011266291600424::1706731774::0::1::::<><>::res://Misc/Inventory/data_scripts/Item_data.gd
+armor.tres::Resource/ItemDataEquip::9177725448513407388::1706731774::0::1::::<><>::res://Misc/Inventory/data_scripts/Item_data_equip.gd
+carrot.tres::Resource/Resource::1936274684010428925::1706167004::0::1::::<><>::res://Misc/Inventory/data_scripts/Item_data.gd
+health_potion.tres::Resource/ItemDataConsumable::5212281801895562821::1706731774::0::1::::<><>::res://Misc/Inventory/data_scripts/Item_data_consumable.gd
+speed_potion.tres::Resource/ItemDataConsumable::9163618742032157486::1706731774::0::1::::<><>::res://Misc/Inventory/data_scripts/Item_data_consumable.gd
+::res://Misc/Inventory/::1706731808
+EquipInventory.tscn::PackedScene::2480174095652145689::1706731808::0::1::::<><>::res://Misc/Inventory/Inventory.gd<>uid://b866vcqcy3lj8::::res://Misc/Inventory/art/vertical_bg.png<>uid://cb83yrv2pmc4x::::res://font/Xolonium-Regular.ttf
+Inventory.gd::GDScript::-1::1706691088::0::1::::<>PanelContainer<>::
+Inventory.tscn::PackedScene::4384130111872893539::1706614839::0::1::::<><>::res://Misc/Inventory/Inventory.gd<>uid://6u1lkwnadcph::::res://Misc/Inventory/art/beige_bg.png
+InventoryInterface.gd::GDScript::-1::1706514510::0::1::::<>Control<>::
+Item.tscn::PackedScene::1185440958558442134::1706167040::0::1::::<><>::res://Misc/Inventory/data_scripts/Item_data.gd
+test_inv.tres::Resource/InventoryData::7988102148040095076::1706731774::0::1::::<><>::res://Misc/Inventory/data_scripts/Inventory_data.gd<>uid://d0aq6yu33b21a::::res://Misc/Consumables/apple.tres<>uid://cgi4rw3ncnfw4::::res://Misc/Consumables/health_potion.tres<>res://Misc/Inventory/data_scripts/Slot_data.gd<>uid://d3002dvj7mlfg::::res://Misc/Consumables/armor.tres<>uid://d3s6px565toxq::::res://Misc/Consumables/speed_potion.tres
+::res://Misc/Inventory/art/::1706166751
+beige_bg.png::CompressedTexture2D::2218740553215061189::1705929956::1705992631::1::::<><>::
+item_list.png::CompressedTexture2D::8720552816628504054::1706166750::1706166751::1::::<><>::
+vertical_bg.png::CompressedTexture2D::4768568092459413407::1706166085::1706166095::1::::<><>::
+::res://Misc/Inventory/data_scripts/::1706692296
+Inventory_data.gd::GDScript::-1::1706191387::0::1::::InventoryData<>Resource<>::
+Inventory_data_equip.gd::GDScript::-1::1706193017::0::1::::InventoryDataEquip<>InventoryData<>::
+Item_data.gd::GDScript::-1::1706192897::0::1::::ItemData<>Resource<>::
+Item_data_consumable.gd::GDScript::-1::1706620834::0::1::::ItemDataConsumable<>ItemData<>::
+Item_data_equip.gd::GDScript::-1::1706692296::0::1::::ItemDataEquip<>ItemData<>::
+Slot_data.gd::GDScript::-1::1706100287::0::1::::SlotData<>Resource<>::
+::res://Misc/Inventory/Enums/::1706691957
+EquipmentType.gd::GDScript::-1::1706691957::0::1::::<>RefCounted<>::
+::res://Misc/Inventory/HotBarInventory/::1706689381
+HotBarInventory.gd::GDScript::-1::1706216468::0::1::::<>PanelContainer<>::
+HotBarInventory.tscn::PackedScene::1578008602236031475::1706689381::0::1::::<><>::res://Misc/Inventory/HotBarInventory/HotBarInventory.gd
+::res://Misc/Inventory/items/::1706621039
+item_atlas.tres::AtlasTexture::7133822553028487091::1706620709::0::1::::<><>::
+::res://Misc/Inventory/slot/::1706731808
+Slot.gd::GDScript::-1::1706691152::0::1::::<>PanelContainer<>::
+Slot.tscn::PackedScene::2631954365785232934::1706731808::0::1::::<><>::res://Misc/Inventory/slot/Slot.gd
+::res://Misc/Pick_Up_Item/::1706186322
+PickUpItem.gd::GDScript::-1::1706186322::0::1::::<>Area2D<>::
+PickUpItem.tscn::PackedScene::4404896759336706627::1706163700::0::1::::<><>::res://Misc/Pick_Up_Item/PickUpItem.gd
+::res://Misc/Projectile/::1706614839
+Projectile.gd::GDScript::-1::1706613775::0::1::::Projectile<>Node2D<>::
+Projectile.tscn::PackedScene::4191331878304021029::1706614839::0::1::::<><>::res://Misc/Projectile/Projectile.gd
+::res://NPC/::1706607529
+::res://NPC/Beholder/::1706731774
+Beholder.tscn::PackedScene::812179998424778010::1706614839::0::1::::<><>::uid://efrlo2cmv7q7::::res://NPC/Beholder/Art/death.png<>uid://c4kpapje1i3k7::::res://NPC/Beholder/Art/walk.png<>uid://d1q83wprpe0n2::::res://NPC/Beholder/Art/idle.png<>uid://bhbnkm1va3t8c::::res://NPC/Beholder/Art/hurt.png<>res://NPC/Scripts/NPC_Ranged.gd<>res://NPC/Enemy/HealthBar.gd<>uid://bwr2lmamadgfa::::res://NPC/Beholder/Art/attack.png<>uid://sscds77pkntu::::res://NPC/Beholder/Beholder_projectiles.tres<>res://NPC/Enemy_Bee/States/Enemy_State_Debug.gd<>res://NPC/Enemy_Bee/States/EnemyStateMachine.gd<>res://NPC/Enemy_Bee/States/Enemy_Walk.gd<>res://NPC/Enemy_Bee/States/Enemy_Attack_State.gd<>res://NPC/Enemy_Bee/States/Enemy_Hurt_State.gd<>res://NPC/Enemy_Bee/States/Enemy_Dead_State.gd
+Beholder_projectiles.tres::SpriteFrames::1300685772753337742::1706731774::0::1::::<><>::uid://bjck3yky45mc7::::res://NPC/Beholder/Art/projectile.png
+::res://NPC/Beholder/Art/::1706523514
+attack.png::CompressedTexture2D::3967329298912029914::1706523460::1706523514::1::::<><>::
+death.png::CompressedTexture2D::292129873076803240::1706523411::1706523514::1::::<><>::
+hurt.png::CompressedTexture2D::2880614817158784560::1706523396::1706523514::1::::<><>::
+idle.png::CompressedTexture2D::9019256872202135209::1706523368::1706523514::1::::<><>::
+projectile.png::CompressedTexture2D::3022907481239358420::1706523505::1706523514::1::::<><>::
+walk.png::CompressedTexture2D::6829873167291561476::1706523381::1706523514::1::::<><>::
+::res://NPC/Enemy/::1706213597
+HealthBar.gd::GDScript::-1::1703252339::0::1::::EnemyHealthBar<>ProgressBar<>::
+Snail.gd::GDScript::-1::1706213597::0::1::::Damageable<>CharacterBody2D<>::
+Snail.tscn::PackedScene::3456635762843445325::1705647337::0::1::::<><>::res://NPC/Enemy/Snail.gd<>uid://mthqd1bhkjxa::::res://art/Mob/Snail/Dead-Sheet.png<>uid://bx310a3lvhtfd::::res://art/Mob/Snail/Hide-Sheet.png<>uid://tbemjed6ur3e::::res://art/Mob/Snail/walk-Sheet.png<>res://NPC/Enemy/HealthBar.gd
+::res://NPC/Enemy_Bee/::1706614839
+Bee.gd::GDScript::-1::1706213610::0::1::::Damageable1<>CharacterBody2D<>::
+Bee.tscn::PackedScene::1515257047377795364::1706614839::0::1::::<><>::res://NPC/Enemy_Bee/Bee.gd<>uid://5bi8rdkqk6y5::::res://art/Mob/Small Bee/Attack/Attack-Sheet.png<>uid://dngumbb36xajf::::res://art/Mob/Small Bee/Hit/Hit-Sheet.png<>uid://borhfn8mxrwi2::::res://art/Mob/Small Bee/Fly/Fly-Sheet.png<>res://NPC/Enemy_Bee/States/EnemyStateMachine.gd<>res://NPC/Enemy_Bee/States/Enemy_Walk.gd<>res://NPC/Enemy_Bee/States/Enemy_Attack_State.gd<>res://NPC/Enemy/HealthBar.gd<>res://NPC/Enemy_Bee/Enemy_Weapon.gd
+Enemy_Weapon.gd::GDScript::-1::1706614331::0::1::::<>Area2D<>::
+::res://NPC/Enemy_Bee/States/::1706613757
+EnemyStateMachine.gd::GDScript::-1::1706613654::0::1::::EnemyStateMachine<>Node<>::
+Enemy_Attack_State.gd::GDScript::-1::1705648732::0::1::::Enemy_Attack_State<>State<>::
+Enemy_Dead_State.gd::GDScript::-1::1706613757::0::1::::<>State<>::
+Enemy_Hurt_State.gd::GDScript::-1::1706613753::0::1::::Enemy_Hurt_State<>State<>::
+Enemy_State_Debug.gd::GDScript::-1::1706542736::0::1::::<>Label<>::
+Enemy_Walk.gd::GDScript::-1::1706613491::0::1::::Enemy_Walk_State<>State<>::
+::res://NPC/Ent/::1706614839
+Ent.tscn::PackedScene::1556495811137139678::1706614839::0::1::::<><>::res://NPC/Enemy_Bee/States/EnemyStateMachine.gd<>res://NPC/Scripts/NPC_Melee.gd<>uid://fxjwfdtgwo4l::::res://NPC/Ent/Art/death.png<>uid://clqca1sd73xek::::res://NPC/Ent/Art/walk.png<>uid://bt0h6ifeh2kck::::res://NPC/Ent/Art/idle.png<>uid://cusskea73laj5::::res://NPC/Ent/Art/hurt.png<>res://NPC/Enemy_Bee/States/Enemy_Walk.gd<>uid://d3my5tp66q1og::::res://NPC/Ent/Art/attack.png<>res://NPC/Enemy_Bee/States/Enemy_Attack_State.gd<>res://NPC/Enemy_Bee/States/Enemy_Hurt_State.gd<>res://NPC/Enemy_Bee/States/Enemy_Dead_State.gd<>res://NPC/Enemy/HealthBar.gd<>res://NPC/Enemy_Bee/Enemy_Weapon.gd<>res://NPC/Enemy_Bee/States/Enemy_State_Debug.gd
+::res://NPC/Ent/Art/::1706522768
+attack.png::CompressedTexture2D::9150834010202772186::1706522766::1706522768::1::::<><>::
+death.png::CompressedTexture2D::399010915057679565::1706519221::1706519249::1::::<><>::
+hurt.png::CompressedTexture2D::6214888015113955304::1706519200::1706519249::1::::<><>::
+idle.png::CompressedTexture2D::3772098963330619902::1706519161::1706519249::1::::<><>::
+walk.png::CompressedTexture2D::5578071519048827182::1706519183::1706519249::1::::<><>::
+::res://NPC/Goblin/::1706614839
+Goblin.tscn::PackedScene::542412270993946190::1706614839::0::1::::<><>::res://NPC/Enemy_Bee/States/EnemyStateMachine.gd<>res://NPC/Scripts/NPC_Melee.gd<>uid://de1vj8btvc5is::::res://NPC/Goblin/Art/attack.png<>res://NPC/Enemy_Bee/States/Enemy_Walk.gd<>uid://dwqmo6j5q6645::::res://NPC/Goblin/Art/run.png<>uid://d1imeefr0dgd2::::res://NPC/Goblin/Art/idle.png<>uid://dr47f6x21oy3r::::res://NPC/Goblin/Art/death.png<>uid://cpgdfm8uhrhkd::::res://NPC/Goblin/Art/hurt.png<>res://NPC/Enemy_Bee/States/Enemy_Attack_State.gd<>res://NPC/Enemy_Bee/States/Enemy_Hurt_State.gd<>res://NPC/Enemy_Bee/States/Enemy_Dead_State.gd<>res://NPC/Enemy/HealthBar.gd<>res://NPC/Enemy_Bee/Enemy_Weapon.gd<>res://NPC/Enemy_Bee/States/Enemy_State_Debug.gd
+::res://NPC/Goblin/Art/::1705667119
+attack.png::CompressedTexture2D::7494984111937035546::1705667115::1705667119::1::::<><>::
+death.png::CompressedTexture2D::8414292885548074713::1705667091::1705667119::1::::<><>::
+hurt.png::CompressedTexture2D::5838252050606357291::1705667072::1705667119::1::::<><>::
+idle.png::CompressedTexture2D::9001422973412798753::1705667034::1705667119::1::::<><>::
+run.png::CompressedTexture2D::8737201903721631724::1705667052::1705667119::1::::<><>::
+::res://NPC/Orc/::1706614839
+Orc.tscn::PackedScene::8425010785299283490::1706614839::0::1::::<><>::res://NPC/Scripts/NPC_Melee.gd<>uid://ckou46xc86l4v::::res://NPC/Orc/Art/death.png<>uid://brjecc85bhs34::::res://NPC/Orc/Art/idle.png<>uid://bbf6sjkbv23gb::::res://NPC/Orc/Art/run.png<>uid://d4fr21hvwu7jn::::res://NPC/Orc/Art/attack.png<>uid://761hpwjoaw2k::::res://NPC/Orc/Art/hurt.png<>res://NPC/Enemy_Bee/States/EnemyStateMachine.gd<>res://NPC/Enemy_Bee/States/Enemy_Walk.gd<>res://NPC/Enemy_Bee/States/Enemy_Attack_State.gd<>res://NPC/Enemy/HealthBar.gd<>res://NPC/Enemy_Bee/Enemy_Weapon.gd<>res://NPC/Enemy_Bee/States/Enemy_Hurt_State.gd<>res://NPC/Enemy_Bee/States/Enemy_Dead_State.gd<>res://NPC/Enemy_Bee/States/Enemy_State_Debug.gd
+::res://NPC/Orc/Art/::1705586145
+attack.png::CompressedTexture2D::9206142188070104607::1705585741::1705585839::1::::<><>::
+death.png::CompressedTexture2D::5504898884092492195::1705585767::1705585839::1::::<><>::
+hurt.png::CompressedTexture2D::2311630671425754872::1705585786::1705585839::1::::<><>::
+idle.png::CompressedTexture2D::3598457022275007205::1705586143::1705586145::1::::<><>::
+run.png::CompressedTexture2D::2468846275400268549::1705585833::1705585839::1::::<><>::
+::res://NPC/Scripts/::1706613886
+NPC_Melee.gd::GDScript::-1::1706572206::0::1::::<>CharacterBody2D<>::
+NPC_Ranged.gd::GDScript::-1::1706613886::0::1::::<>CharacterBody2D<>::
+::res://NPC/Small_Dragon/::1706731774
+Small_Dragon.tscn::PackedScene::9072576148106652842::1706614839::0::1::::<><>::uid://b6vdts72rjmbt::::res://NPC/Small_Dragon/Art/walk.png<>uid://tuppn6mldw5j::::res://NPC/Small_Dragon/Art/death.png<>uid://cvtfyu14l1n5a::::res://NPC/Small_Dragon/Art/hurt.png<>res://NPC/Scripts/NPC_Ranged.gd<>res://NPC/Enemy/HealthBar.gd<>uid://xwsyegm1cmv2::::res://NPC/Small_Dragon/Art/attack.png<>uid://cxsdliayt0wjv::::res://NPC/Small_Dragon/Art/idle.png<>uid://cd8631a0t8jvl::::res://NPC/Small_Dragon/Small_Dragon_Projectiles.tres<>res://NPC/Enemy_Bee/States/Enemy_State_Debug.gd<>res://NPC/Enemy_Bee/States/EnemyStateMachine.gd<>res://NPC/Enemy_Bee/States/Enemy_Walk.gd<>res://NPC/Enemy_Bee/States/Enemy_Attack_State.gd<>res://NPC/Enemy_Bee/States/Enemy_Hurt_State.gd<>res://NPC/Enemy_Bee/States/Enemy_Dead_State.gd
+Small_Dragon_Projectiles.tres::SpriteFrames::5053465959959057233::1706731774::0::1::::<><>::uid://cy7ycansqd24u::::res://NPC/Small_Dragon/Art/projectile.png
+::res://NPC/Small_Dragon/Art/::1706607749
+attack.png::CompressedTexture2D::1660895699129863877::1706607724::1706607749::1::::<><>::
+death.png::CompressedTexture2D::1375813857256439141::1706607715::1706607749::1::::<><>::
+hurt.png::CompressedTexture2D::6286377797094850384::1706607700::1706607749::1::::<><>::
+idle.png::CompressedTexture2D::6424545786648926231::1706607656::1706607749::1::::<><>::
+projectile.png::CompressedTexture2D::6524894503164923634::1706607743::1706607749::1::::<><>::
+walk.png::CompressedTexture2D::4605843846473738397::1706607686::1706607749::1::::<><>::

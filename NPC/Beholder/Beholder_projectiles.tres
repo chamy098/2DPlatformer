@@ -1,0 +1,77 @@
+[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://sscds77pkntu"]
+
+[ext_resource type="Texture2D" uid="uid://bjck3yky45mc7" path="res://NPC/Beholder/Art/projectile.png" id="1_4hius"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_roh80"]
+atlas = ExtResource("1_4hius")
+region = Rect2(66, 0, 66, 66)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o74ap"]
+atlas = ExtResource("1_4hius")
+region = Rect2(132, 0, 66, 66)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tyqdr"]
+atlas = ExtResource("1_4hius")
+region = Rect2(198, 0, 66, 66)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n2c8k"]
+atlas = ExtResource("1_4hius")
+region = Rect2(264, 0, 66, 66)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pnupf"]
+atlas = ExtResource("1_4hius")
+region = Rect2(330, 0, 66, 66)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3sbh7"]
+atlas = ExtResource("1_4hius")
+region = Rect2(396, 0, 66, 66)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3bwqr"]
+atlas = ExtResource("1_4hius")
+region = Rect2(462, 0, 66, 66)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xonjr"]
+atlas = ExtResource("1_4hius")
+region = Rect2(0, 0, 66, 66)
+
+[resource]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_roh80")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o74ap")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tyqdr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n2c8k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pnupf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3sbh7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3bwqr")
+}],
+"loop": true,
+"name": &"explode",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xonjr")
+}],
+"loop": true,
+"name": &"fly",
+"speed": 5.0
+}]

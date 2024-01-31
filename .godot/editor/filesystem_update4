@@ -1,0 +1,16 @@
+res://Levels/Level2/Level2.tscn
+res://Misc/Consumables/apple.tres
+res://Misc/Consumables/health_potion.tres
+res://Misc/Consumables/armor.tres
+res://Misc/Consumables/speed_potion.tres
+res://Misc/Inventory/test_inv.tres
+res://NPC/Beholder/Beholder_projectiles.tres
+res://NPC/Small_Dragon/Small_Dragon_Projectiles.tres
+res://Misc/Inventory/EquipInventory.tscn
+res://Misc/Inventory/slot/Slot.tscn
+res://Misc/Inventory/data_scripts/Inventory_data_equip.gd
+res://Misc/Inventory/data_scripts/Item_data_equip.gd
+res://Misc/Inventory/data_scripts/Slot_data.gd
+res://Misc/Inventory/Enums/EquipmentType.gd
+res://Misc/Inventory/slot/Slot.gd
+res://Misc/Inventory/data_scripts/Inventory_data.gd

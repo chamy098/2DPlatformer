@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://2t7fqj6yykk8"]
+
+[ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Item_data.gd" id="1_rpk1x"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rnssq"]
+load_path = "res://.godot/imported/item_list.png-4ddcb0fa3f540bcceb4d8639b681eebe.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bm0b7"]
+atlas = SubResource("CompressedTexture2D_rnssq")
+region = Rect2(160, 0, 32, 32)
+
+[resource]
+script = ExtResource("1_rpk1x")
+name = "Carrot"
+description = "Tasty carrot"
+stackable = true
+texture = SubResource("AtlasTexture_bm0b7")

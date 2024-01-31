@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://q5iblsjo35jm"]
+
+[ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Item_data.gd" id="1_xolcw"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tpbys"]
+load_path = "res://.godot/imported/1_0001_Bottle2.png-5975fe43a1dff8c748d00ca0d115ce88.ctex"
+
+[node name="Item" type="Node2D"]
+script = ExtResource("1_xolcw")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = SubResource("CompressedTexture2D_tpbys")

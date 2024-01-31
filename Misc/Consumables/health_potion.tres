@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="ItemDataConsumable" load_steps=4 format=3 uid="uid://cgi4rw3ncnfw4"]
+
+[ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Item_data_consumable.gd" id="1_mh2nc"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rnssq"]
+load_path = "res://.godot/imported/item_list.png-4ddcb0fa3f540bcceb4d8639b681eebe.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vhbfs"]
+atlas = SubResource("CompressedTexture2D_rnssq")
+region = Rect2(3680, 0, 32, 32)
+
+[resource]
+script = ExtResource("1_mh2nc")
+heal_value = 15
+increase_movement = 0.0
+duration = 0.0
+name = "Health potioin"
+description = "Heal 15 hp"
+stackable = true
+texture = SubResource("AtlasTexture_vhbfs")

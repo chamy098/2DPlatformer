@@ -1,0 +1,74 @@
+[gd_scene load_steps=5 format=3 uid="uid://46yw5nk1jvoj"]
+
+[ext_resource type="Texture2D" uid="uid://dkyw6xg3d3ixg" path="res://Levels/GameOver/begie_border2.png" id="1_fhvsv"]
+[ext_resource type="Script" path="res://Levels/GameOver/GameOver.gd" id="1_vtu2a"]
+[ext_resource type="FontFile" uid="uid://cb83yrv2pmc4x" path="res://font/Xolonium-Regular.ttf" id="2_7xyty"]
+[ext_resource type="Texture2D" uid="uid://pvfpfi73kfh7" path="res://Levels/GameOver/button.png" id="3_wo3ke"]
+
+[node name="GameOver" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vtu2a")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576.5, 325)
+scale = Vector2(5.58738, 7.02174)
+texture = ExtResource("1_fhvsv")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 120.0
+offset_right = 918.0
+offset_bottom = 240.0
+theme_override_fonts/font = ExtResource("2_7xyty")
+theme_override_font_sizes/font_size = 100
+text = "GAME OVER"
+
+[node name="RetryButton" type="Button" parent="."]
+offset_left = 632.0
+offset_top = 384.0
+offset_right = 960.0
+offset_bottom = 488.0
+
+[node name="Sprite2D" type="Sprite2D" parent="RetryButton"]
+position = Vector2(160, 51)
+scale = Vector2(3.06881, 2.94444)
+texture = ExtResource("3_wo3ke")
+
+[node name="Label" type="Label" parent="RetryButton"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 24.0
+offset_right = 256.0
+offset_bottom = 104.0
+theme_override_fonts/font = ExtResource("2_7xyty")
+theme_override_font_sizes/font_size = 50
+text = "RETRY"
+
+[node name="MenuButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 384.0
+offset_right = 520.0
+offset_bottom = 488.0
+
+[node name="Sprite2D" type="Sprite2D" parent="MenuButton"]
+position = Vector2(166, 52)
+scale = Vector2(3.06881, 2.94444)
+texture = ExtResource("3_wo3ke")
+
+[node name="Label" type="Label" parent="MenuButton"]
+offset_left = 72.0
+offset_top = 24.0
+offset_right = 264.0
+offset_bottom = 104.0
+theme_override_fonts/font = ExtResource("2_7xyty")
+theme_override_font_sizes/font_size = 50
+text = "MENU"
+
+[connection signal="pressed" from="RetryButton" to="." method="_on_retry_button_pressed"]

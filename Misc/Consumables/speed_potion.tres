@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="ItemDataConsumable" load_steps=4 format=3 uid="uid://d3s6px565toxq"]
+
+[ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Item_data_consumable.gd" id="1_74ixh"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rnssq"]
+load_path = "res://.godot/imported/item_list.png-4ddcb0fa3f540bcceb4d8639b681eebe.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5j8m7"]
+atlas = SubResource("CompressedTexture2D_rnssq")
+region = Rect2(2976, 0, 32, 32)
+
+[resource]
+script = ExtResource("1_74ixh")
+heal_value = 0
+increase_movement = 200.0
+duration = 3.0
+name = "Speed potion"
+description = "Movement speed +200
+Duration: 3 seconds"
+stackable = true
+texture = SubResource("AtlasTexture_5j8m7")

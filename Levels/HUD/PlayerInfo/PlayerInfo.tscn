@@ -1,0 +1,278 @@
+[gd_scene load_steps=30 format=3 uid="uid://dcakclbwkwrhy"]
+
+[ext_resource type="Script" path="res://Levels/HUD/PlayerInfo/PlayerInfo.gd" id="1_4nd1s"]
+[ext_resource type="Texture2D" uid="uid://b866vcqcy3lj8" path="res://Misc/Inventory/art/vertical_bg.png" id="1_7gv5a"]
+[ext_resource type="Texture2D" uid="uid://du8tobjugddru" path="res://Character/Knight/Animations/idle.png" id="2_mv5cl"]
+[ext_resource type="Texture2D" uid="uid://bmo1ndthvom18" path="res://Levels/HUD/PlayerInfo/Art/top_tape.png" id="2_uwun8"]
+[ext_resource type="FontFile" uid="uid://cb83yrv2pmc4x" path="res://font/Xolonium-Regular.ttf" id="3_cldct"]
+[ext_resource type="Texture2D" uid="uid://c2h8ycb4268us" path="res://Levels/HUD/PlayerInfo/Art/heart.png" id="3_rfnkd"]
+[ext_resource type="Texture2D" uid="uid://b5qptp6qo0o0f" path="res://Levels/HUD/PlayerInfo/Art/shield.png" id="4_cw7r0"]
+[ext_resource type="Texture2D" uid="uid://ch4u8ec7po7s5" path="res://Levels/HUD/PlayerInfo/Art/power.png" id="5_7pjxk"]
+[ext_resource type="Texture2D" uid="uid://cvhuuids3iuwm" path="res://Levels/HUD/PlayerInfo/Art/magic.png" id="6_texgn"]
+[ext_resource type="Texture2D" uid="uid://cdjn4awi5ohec" path="res://Levels/HUD/PlayerInfo/Art/speed.png" id="7_c8qv1"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_18tqb"]
+font = ExtResource("3_cldct")
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_ex45f"]
+font = ExtResource("3_cldct")
+font_size = 20
+font_color = Color(1, 0, 0, 1)
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_t3qca"]
+font = ExtResource("3_cldct")
+font_size = 20
+font_color = Color(0.00392157, 1, 0.00784314, 1)
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_76lvs"]
+font = ExtResource("3_cldct")
+font_size = 20
+font_color = Color(1, 0.411765, 0.176471, 1)
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_54m2i"]
+font = ExtResource("3_cldct")
+font_size = 20
+font_color = Color(0, 0.52549, 1, 1)
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_x4spd"]
+font = ExtResource("3_cldct")
+font_size = 20
+font_color = Color(0.709804, 0.0509804, 1, 1)
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_urqko"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m6o6j"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vkt0h"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ddtx"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v374g"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_67e8o"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_42krl"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(768, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fqt73"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3s3tq"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(1024, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_46ohu"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(1152, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_817uw"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(1280, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0fp3t"]
+atlas = ExtResource("2_mv5cl")
+region = Rect2(1408, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_upt5o"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_urqko")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m6o6j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vkt0h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ddtx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v374g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_67e8o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_42krl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fqt73")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3s3tq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_46ohu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_817uw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0fp3t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_urqko")
+}],
+"loop": false,
+"name": &"idle",
+"speed": 6.0
+}]
+
+[node name="PlayerInfo" type="PanelContainer"]
+offset_right = 217.0
+offset_bottom = 360.0
+script = ExtResource("1_4nd1s")
+
+[node name="TextureRect" type="Sprite2D" parent="."]
+position = Vector2(157.692, 221.179)
+scale = Vector2(1.404, 1.14)
+texture = ExtResource("1_7gv5a")
+
+[node name="TitleTexture" type="TextureRect" parent="TextureRect"]
+offset_left = -104.0
+offset_top = -80.0
+offset_right = 96.0
+offset_bottom = -24.0
+texture = ExtResource("2_uwun8")
+expand_mode = 1
+
+[node name="Stats" type="Label" parent="TextureRect/TitleTexture"]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 18.0
+offset_right = 168.0
+offset_bottom = 41.0
+text = "Player Stats"
+label_settings = SubResource("LabelSettings_18tqb")
+uppercase = true
+
+[node name="HealthTexture" type="TextureRect" parent="TextureRect"]
+offset_left = -46.0
+offset_top = -5.35451
+offset_right = -11.0
+offset_bottom = 29.6455
+texture = ExtResource("3_rfnkd")
+expand_mode = 1
+
+[node name="ShieldTexture" type="TextureRect" parent="TextureRect"]
+offset_left = -45.7746
+offset_top = 48.2804
+offset_right = -10.7746
+offset_bottom = 83.2804
+texture = ExtResource("4_cw7r0")
+expand_mode = 1
+
+[node name="AttackTexture" type="TextureRect" parent="TextureRect"]
+offset_left = -45.7747
+offset_top = 104.718
+offset_right = -10.7747
+offset_bottom = 139.718
+texture = ExtResource("5_7pjxk")
+expand_mode = 1
+
+[node name="MagicTexture" type="TextureRect" parent="TextureRect"]
+offset_left = 55.0408
+offset_top = -8.15696
+offset_right = 90.0408
+offset_bottom = 26.843
+texture = ExtResource("6_texgn")
+expand_mode = 1
+
+[node name="SpeedTexture" type="TextureRect" parent="TextureRect"]
+offset_left = 56.5234
+offset_top = 50.9259
+offset_right = 91.5234
+offset_bottom = 85.9259
+texture = ExtResource("7_c8qv1")
+expand_mode = 1
+
+[node name="HealthLabel" type="Label" parent="TextureRect"]
+offset_left = -92.0
+offset_top = -3.0
+offset_right = -49.0
+offset_bottom = 22.0
+text = "100"
+label_settings = SubResource("LabelSettings_ex45f")
+horizontal_alignment = 2
+
+[node name="ShieldLabel" type="Label" parent="TextureRect"]
+offset_left = -92.0
+offset_top = 52.69
+offset_right = -52.0
+offset_bottom = 83.69
+text = "50"
+label_settings = SubResource("LabelSettings_t3qca")
+horizontal_alignment = 2
+
+[node name="AttackLabel" type="Label" parent="TextureRect"]
+offset_left = -92.0
+offset_top = 111.772
+offset_right = -52.0
+offset_bottom = 142.772
+text = "25"
+label_settings = SubResource("LabelSettings_76lvs")
+horizontal_alignment = 2
+
+[node name="MagicLabel" type="Label" parent="TextureRect"]
+offset_left = 10.0
+offset_top = -2.0
+offset_right = 50.0
+offset_bottom = 24.0
+text = "0"
+label_settings = SubResource("LabelSettings_54m2i")
+horizontal_alignment = 2
+
+[node name="SpeedLabel" type="Label" parent="TextureRect"]
+offset_left = 2.07803
+offset_top = 55.0
+offset_right = 50.078
+offset_bottom = 80.0
+text = "300"
+label_settings = SubResource("LabelSettings_x4spd")
+horizontal_alignment = 2
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(176, 48)
+scale = Vector2(1.65625, 1.75781)
+sprite_frames = SubResource("SpriteFrames_upt5o")
+animation = &"idle"
+frame = 12
+
+[node name="Timer" type="Timer" parent="AnimatedSprite2D"]
+wait_time = 10.0
+one_shot = true
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

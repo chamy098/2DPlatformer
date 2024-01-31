@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://1tchhs2xg2oe"]
+
+[ext_resource type="Script" path="res://Misc/Coin/Coin.gd" id="1_y6gq2"]
+[ext_resource type="Texture2D" uid="uid://dvj7ggwnd4va" path="res://art/coin/gold_1.png" id="2_8qbhk"]
+[ext_resource type="Texture2D" uid="uid://bwdtjc5y25085" path="res://art/coin/gold_2.png" id="3_lbg0u"]
+[ext_resource type="Texture2D" uid="uid://bk88p2xlbqcwi" path="res://art/coin/gold_3.png" id="4_pp6hb"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_sxb11"]
+radius = 6.0
+height = 14.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v24fe"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_8qbhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_lbg0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_pp6hb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Coin" type="Area2D"]
+script = ExtResource("1_y6gq2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_sxb11")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.165, 0.165)
+sprite_frames = SubResource("SpriteFrames_v24fe")
+autoplay = "default"
+frame_progress = 0.608403
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

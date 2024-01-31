@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://b301ahaj7dwm2"]
+
+[ext_resource type="Script" path="res://Misc/Pick_Up_Item/PickUpItem.gd" id="1_t5qdm"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_oes7p"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_tpbys"]
+load_path = "res://.godot/imported/1_0001_Bottle2.png-5975fe43a1dff8c748d00ca0d115ce88.ctex"
+
+[node name="HealthPotion" type="Area2D"]
+script = ExtResource("1_t5qdm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_oes7p")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("CompressedTexture2D_tpbys")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
