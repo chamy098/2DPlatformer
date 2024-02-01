@@ -5,3 +5,6 @@ Welcome to the 2D RPG Platformer project! This is an exciting game project where
 ## Overview
 
 This game is a 2D role-playing game (RPG) combined with platformer elements, offering players an immersive experience in a richly crafted world. Players will navigate through diverse environments, battle formidable foes, complete quests, and discover hidden treasures as they progress through the game.
+
+
+ps. I'll come up with a better name later :D
