@@ -1,7 +1,0 @@
-ItemDataConsumable
-SpriteFrames
-Resource
-ItemDataEquip
-InventoryData
-ItemData
-AtlasTexture

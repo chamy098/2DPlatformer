@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="ItemDataEquip" load_steps=4 format=3 uid="uid://bxx26xc8pskn3"]
+
+[ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Item_data_equip.gd" id="1_bmkhw"]
+[ext_resource type="Texture2D" uid="uid://bg2dv6p3rr7di" path="res://art/swords.png" id="2_vr3qi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3k4u1"]
+atlas = ExtResource("2_vr3qi")
+region = Rect2(0, 0, 32, 32)
+
+[resource]
+script = ExtResource("1_bmkhw")
+health = 0
+armor = 0
+attack = 10
+magic = 0
+movement_speed = 0
+type = 2
+name = "Basic sword"
+description = "Attack +10"
+stackable = false
+texture = SubResource("AtlasTexture_3k4u1")

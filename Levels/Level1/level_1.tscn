@@ -23,7 +23,7 @@
 [ext_resource type="Resource" uid="uid://dl2q4034or5gy" path="res://Misc/Inventory/test_inv.tres" id="11_l54rf"]
 [ext_resource type="PackedScene" uid="uid://hy0plgo5rpg5" path="res://NPC/Goblin/Goblin.tscn" id="11_yrhq7"]
 [ext_resource type="PackedScene" uid="uid://dcakclbwkwrhy" path="res://Levels/HUD/PlayerInfo/PlayerInfo.tscn" id="12_kal51"]
-[ext_resource type="Resource" uid="uid://d0aq6yu33b21a" path="res://Misc/Consumables/apple.tres" id="14_4mk6d"]
+[ext_resource type="Resource" uid="uid://d0aq6yu33b21a" path="res://Misc/Items/apple.tres" id="14_4mk6d"]
 [ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Slot_data.gd" id="15_rdgks"]
 [ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Inventory_data_equip.gd" id="19_tlvo3"]
 [ext_resource type="Script" path="res://Character/Common/Player_stats.gd" id="24_ux2xf"]

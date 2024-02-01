@@ -29,14 +29,17 @@ const HUD = preload("res://Levels/HUD/Hud_enum.gd")
 func _ready():
 	PlayerManager.player = self
 	animation_tree.active = true
+	player_base_stats.connect("update_stats", set_stats)
+	set_stats()
+	update_hud.emit(HEALTH,HUD.STATUS.UPDATE_HEALTH)
+	update_hud.emit(ARMOR,HUD.STATUS.UPDATE_ARMOR)
+
+func set_stats():
 	MOVEMENT_SPEED = player_base_stats.base_movement_speed
 	HEALTH = player_base_stats.base_health
 	ATTACK = player_base_stats.base_attack
 	ARMOR = player_base_stats.base_armor
 	MAGIC = player_base_stats.base_magic
-	update_hud.emit(HEALTH,HUD.STATUS.UPDATE_HEALTH)
-	update_hud.emit(ARMOR,HUD.STATUS.UPDATE_ARMOR)
-
 		
 func _physics_process(delta):
 	# Add the gravity.

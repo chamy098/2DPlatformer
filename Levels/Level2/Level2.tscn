@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://dq4y3kfwlojoc"]
+[gd_scene load_steps=37 format=3 uid="uid://dq4y3kfwlojoc"]
 
 [ext_resource type="Script" path="res://Levels/Level1/level_1.gd" id="1_dfp42"]
 [ext_resource type="Texture2D" uid="uid://bh7lmrxo7xv1t" path="res://Levels/Level2/Art/Background.png" id="1_e5bmo"]
@@ -25,6 +25,9 @@
 [ext_resource type="PackedScene" uid="uid://wf8i17d5javm" path="res://NPC/Ent/Ent.tscn" id="22_jglxd"]
 [ext_resource type="PackedScene" uid="uid://ltoqrylernq5" path="res://NPC/Beholder/Beholder.tscn" id="24_mfkml"]
 [ext_resource type="PackedScene" uid="uid://d2i3aehbnry15" path="res://NPC/Small_Dragon/Small_Dragon.tscn" id="25_4n37a"]
+[ext_resource type="PackedScene" uid="uid://b301ahaj7dwm2" path="res://Misc/Pick_Up_Item/PickUpItem.tscn" id="26_xfd5q"]
+[ext_resource type="Resource" uid="uid://bxx26xc8pskn3" path="res://Misc/Items/Sword1.tres" id="27_hcm1i"]
+[ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Slot_data.gd" id="28_s6s5s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2gn6a"]
 texture = ExtResource("2_0aime")
@@ -9348,7 +9351,7 @@ sources/3 = SubResource("TileSetAtlasSource_8tnch")
 
 [sub_resource type="Resource" id="Resource_r6ybo"]
 script = ExtResource("9_ig5xr")
-slot_datas = Array[Resource("res://Misc/Inventory/data_scripts/Slot_data.gd")]([null, null, null, null])
+slot_datas = Array[ExtResource("28_s6s5s")]([null, null, null, null])
 
 [sub_resource type="Resource" id="Resource_0ny70"]
 script = ExtResource("10_gu74j")
@@ -9357,6 +9360,11 @@ base_armor = 50
 base_attack = 75
 base_magic = 0
 base_movement_speed = 300
+
+[sub_resource type="Resource" id="Resource_xudgx"]
+script = ExtResource("28_s6s5s")
+item_data = ExtResource("27_hcm1i")
+quantity = 1
 
 [node name="Level2" type="Node2D"]
 process_mode = 1
@@ -9458,7 +9466,11 @@ position = Vector2(872, 536)
 SPEED = -30
 
 [node name="SmallDragon" parent="." instance=ExtResource("25_4n37a")]
-position = Vector2(720, 856)
+position = Vector2(1080, 616)
+
+[node name="Item" parent="." instance=ExtResource("26_xfd5q")]
+position = Vector2(376, 848)
+slot_data = SubResource("Resource_xudgx")
 
 [connection signal="drop_slot_data" from="Hud/InventoryInterface" to="." method="_on_inventory_interface_drop_slot_data"]
 [connection signal="gui_input" from="Hud/InventoryInterface" to="Hud/InventoryInterface" method="_on_gui_input"]

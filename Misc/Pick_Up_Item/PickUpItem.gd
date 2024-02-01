@@ -1,6 +1,5 @@
 extends Area2D
 
-@export var HEALTH_VALUE = 15
 @export var slot_data = SlotData
 @onready var sprite_2d = $Sprite2D
 

@@ -1,6 +1,9 @@
 extends Control
 
 @export var game_manager: GameManager
+
+var save_path = "user://variable.save"
+var var1 = "Test"
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	hide()
@@ -22,3 +25,17 @@ func _on_resume_pressed():
 
 func _on_exit_pressed():
 	get_tree().quit()
+
+
+func _on_save_pressed():
+	var file = FileAccess.open(save_path,FileAccess.WRITE)
+	file.store_var(var1)
+	file.store_var("test2")
+
+
+func _on_load_pressed():
+	if FileAccess.file_exists(save_path):
+		var file = FileAccess.open(save_path,FileAccess.READ)
+		var1 = file.get_var()
+		print(var1)
+		
