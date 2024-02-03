@@ -26,7 +26,8 @@ radius = 13.0
 height = 34.0
 
 [sub_resource type="Curve" id="Curve_vffkb"]
-_data = [Vector2(0.0203252, 1), 0.0, 0.0, 0, 0, Vector2(0.955285, 0.076923), 0.0, 0.0, 0, 0]
+bake_resolution = 1
+_data = [Vector2(0.0431655, 0), 0.0, 0.0, 0, 0, Vector2(1, 0.111801), 0.0, 0.0, 0, 0]
 point_count = 2
 
 [sub_resource type="Animation" id="Animation_aejc5"]
@@ -554,20 +555,26 @@ shape = SubResource("CapsuleShape2D_jurbv")
 position = Vector2(0, 7)
 emitting = false
 amount = 20000
-lifetime = 0.7
+lifetime = 0.5
 one_shot = true
-explosiveness = 0.4
+preprocess = 1.0
+speed_scale = 0.4
+explosiveness = 0.03
+local_coords = true
 emission_shape = 1
-emission_sphere_radius = 10.0
-spread = 170.95
+emission_sphere_radius = 4.7
+direction = Vector2(6.28, 0)
+spread = 180.0
 gravity = Vector2(0, -100)
-initial_velocity_min = 5.0
 initial_velocity_max = 15.0
-linear_accel_min = 2.3
-linear_accel_max = 28.57
-scale_amount_max = 2.0
+linear_accel_min = 100.0
+linear_accel_max = 100.0
+scale_amount_min = 0.0
+scale_amount_max = 14.0
 scale_amount_curve = SubResource("Curve_vffkb")
 color = Color(0.243137, 0.878431, 0.0705882, 1)
+hue_variation_min = 0.83
+hue_variation_max = 0.83
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, -116)
