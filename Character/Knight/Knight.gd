@@ -24,6 +24,7 @@ var MAGIC = 0
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var facing_right = true
 var wallet = 0
+var is_inventory_open:bool = false
 
 const HUD = preload("res://Levels/HUD/Hud_enum.gd")
 func _ready():
@@ -62,6 +63,7 @@ func _physics_process(delta):
 func _unhandled_input(event):
 	if Input.is_action_pressed("inventory"):
 		toggle_inventory.emit()
+		is_inventory_open = !is_inventory_open
 
 func flip():
 	facing_right = !facing_right

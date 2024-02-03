@@ -45,9 +45,9 @@ func showHitLabel(value):
 	var label = HitLabel.instantiate()
 	label.text = str(value)
 	if facing_right:
-		label.scale.x = -1
-	else:
 		label.scale.x = 1
+	else:
+		label.scale.x = -1
 	add_child(label)
 	var tween = create_tween()
 

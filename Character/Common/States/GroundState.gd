@@ -21,7 +21,7 @@ func state_input(event: InputEvent):
 	if(event.is_action_pressed("jump")):
 		jump()
 
-	if(event.is_action_pressed("attack")):
+	if(event.is_action_pressed("attack") && !character.is_inventory_open):
 		attack()
 
 func jump():
