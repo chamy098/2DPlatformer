@@ -33,8 +33,5 @@ func dead():
 	playback.travel(death_animation)
 	character.disableCollision(true)
 
-	
-
-
 
 
