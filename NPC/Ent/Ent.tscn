@@ -407,6 +407,7 @@ shape = SubResource("RectangleShape2D_3idyp")
 wait_time = 0.8
 
 [node name="Label" type="Label" parent="." node_paths=PackedStringArray("state_machine")]
+visible = false
 offset_left = -16.0
 offset_top = -88.0
 offset_right = 24.0

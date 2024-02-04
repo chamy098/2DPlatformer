@@ -364,6 +364,7 @@ show_percentage = false
 script = ExtResource("1_sotvk")
 
 [node name="Label" type="Label" parent="." node_paths=PackedStringArray("state_machine")]
+visible = false
 offset_left = -16.0
 offset_top = -88.0
 offset_right = 24.0
