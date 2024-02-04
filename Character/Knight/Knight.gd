@@ -15,6 +15,7 @@ signal toggle_inventory()
 @onready var sprite: Sprite2D = $Sprite2D
 @onready var state_machine = $CharacterStateMachine
 @onready var heal_particle = $HealParticle
+@onready var bounce_raycast = $BounceRaycast
 
 var MOVEMENT_SPEED = 0
 var HEALTH = 0
@@ -43,6 +44,13 @@ func set_stats():
 	MAGIC = player_base_stats.base_magic
 		
 func _physics_process(delta):
+	if bounce_raycast.is_colliding():
+		var collision = bounce_raycast.get_collider()
+		if collision.is_in_group('Enemy'):
+			#Player jumped on the enemy
+			#Kick the player back
+			position.x -=  400 * delta
+			velocity.y = -300
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y += gravity * delta

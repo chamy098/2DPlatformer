@@ -23,7 +23,6 @@ PlayerManager="*res://Character/player_manager.gd"
 
 window/size/viewport_width=1264
 window/size/viewport_height=755
-window/size/mode=3
 window/size/initial_position_type=2
 mouse_cursor/custom_image="res://art/cursor/cursor_select.png"
 
