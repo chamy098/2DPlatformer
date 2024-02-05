@@ -1,16 +1,16 @@
 [gd_scene load_steps=4 format=3 uid="uid://brc5l7c5sibxp"]
 
-[ext_resource type="Script" path="res://GameManager.gd" id="1_imssw"]
 [ext_resource type="PackedScene" uid="uid://dq4y3kfwlojoc" path="res://Levels/Level2/Level2.tscn" id="2_ssutk"]
 [ext_resource type="PackedScene" uid="uid://bwrtn03io5jj0" path="res://Levels/EscapeMenu/EscapeMenu.tscn" id="3_dncmh"]
+[ext_resource type="PackedScene" uid="uid://46yw5nk1jvoj" path="res://Levels/GameOver/GameOver.tscn" id="4_0hrx6"]
 
 [node name="GameManager" type="Node"]
 process_mode = 3
-script = ExtResource("1_imssw")
 
 [node name="Level2" parent="." instance=ExtResource("2_ssutk")]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
-[node name="EscapeMenu" parent="CanvasLayer" node_paths=PackedStringArray("game_manager") instance=ExtResource("3_dncmh")]
-game_manager = NodePath("../..")
+[node name="EscapeMenu" parent="CanvasLayer" instance=ExtResource("3_dncmh")]
+
+[node name="GameOver" parent="CanvasLayer" instance=ExtResource("4_0hrx6")]

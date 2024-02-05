@@ -14,61 +14,79 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_vtu2a")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(576.5, 325)
-scale = Vector2(5.58738, 7.02174)
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="Panel"]
+position = Vector2(7.50015, 33.5)
+scale = Vector2(3.33495, 4.23913)
 texture = ExtResource("1_fhvsv")
 
-[node name="Label" type="Label" parent="."]
-layout_mode = 0
-offset_left = 240.0
-offset_top = 120.0
-offset_right = 918.0
-offset_bottom = 240.0
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 2
+offset_left = -329.0
+offset_top = -125.0
+offset_right = 349.0
+offset_bottom = -5.0
 theme_override_fonts/font = ExtResource("2_7xyty")
-theme_override_font_sizes/font_size = 100
+theme_override_font_sizes/font_size = 60
 text = "GAME OVER"
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="RetryButton" type="Button" parent="."]
-offset_left = 632.0
-offset_top = 384.0
-offset_right = 960.0
-offset_bottom = 488.0
+[node name="RetryButton" type="Button" parent="Panel"]
+layout_mode = 2
+offset_left = 82.0002
+offset_top = 57.5
+offset_right = 295.0
+offset_bottom = 132.5
 
-[node name="Sprite2D" type="Sprite2D" parent="RetryButton"]
-position = Vector2(160, 51)
-scale = Vector2(3.06881, 2.94444)
+[node name="Sprite2D" type="Sprite2D" parent="Panel/RetryButton"]
+position = Vector2(108.375, 39)
+scale = Vector2(2.05, 2.2)
 texture = ExtResource("3_wo3ke")
 
-[node name="Label" type="Label" parent="RetryButton"]
+[node name="Label" type="Label" parent="Panel/RetryButton"]
 layout_mode = 0
-offset_left = 64.0
-offset_top = 24.0
-offset_right = 256.0
-offset_bottom = 104.0
+offset_left = -3.0
+offset_top = 1.0
+offset_right = 221.0
+offset_bottom = 75.0
 theme_override_fonts/font = ExtResource("2_7xyty")
-theme_override_font_sizes/font_size = 50
+theme_override_font_sizes/font_size = 30
 text = "RETRY"
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="MenuButton" type="Button" parent="."]
-layout_mode = 0
-offset_left = 192.0
-offset_top = 384.0
-offset_right = 520.0
-offset_bottom = 488.0
+[node name="MenuButton" type="Button" parent="Panel"]
+layout_mode = 2
+offset_left = -257.0
+offset_top = 57.5
+offset_right = -43.9998
+offset_bottom = 132.5
 
-[node name="Sprite2D" type="Sprite2D" parent="MenuButton"]
-position = Vector2(166, 52)
-scale = Vector2(3.06881, 2.94444)
+[node name="Sprite2D" type="Sprite2D" parent="Panel/MenuButton"]
+position = Vector2(108.276, 37.5)
+scale = Vector2(1.97658, 2.2)
 texture = ExtResource("3_wo3ke")
 
-[node name="Label" type="Label" parent="MenuButton"]
-offset_left = 72.0
-offset_top = 24.0
-offset_right = 264.0
-offset_bottom = 104.0
+[node name="Label" type="Label" parent="Panel/MenuButton"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 2.0
+offset_right = 208.0
+offset_bottom = 74.0
 theme_override_fonts/font = ExtResource("2_7xyty")
-theme_override_font_sizes/font_size = 50
+theme_override_font_sizes/font_size = 30
 text = "MENU"
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[connection signal="pressed" from="RetryButton" to="." method="_on_retry_button_pressed"]
+[connection signal="pressed" from="Panel/RetryButton" to="." method="_on_retry_button_pressed"]
