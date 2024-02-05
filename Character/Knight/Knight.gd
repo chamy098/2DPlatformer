@@ -35,6 +35,7 @@ func _ready():
 	set_stats()
 	update_hud.emit(HEALTH,HUD.STATUS.UPDATE_HEALTH)
 	update_hud.emit(ARMOR,HUD.STATUS.UPDATE_ARMOR)
+	
 
 func set_stats():
 	MOVEMENT_SPEED = player_base_stats.base_movement_speed
