@@ -2,12 +2,12 @@
 
 [ext_resource type="Script" path="res://NPC/Enemy_Bee/States/EnemyStateMachine.gd" id="1_ahf47"]
 [ext_resource type="Script" path="res://NPC/Scripts/NPC_Melee.gd" id="1_mnm46"]
-[ext_resource type="Texture2D" uid="uid://fxjwfdtgwo4l" path="res://NPC/Ent/Art/death.png" id="2_1udl5"]
-[ext_resource type="Texture2D" uid="uid://clqca1sd73xek" path="res://NPC/Ent/Art/walk.png" id="2_2jeby"]
-[ext_resource type="Texture2D" uid="uid://bt0h6ifeh2kck" path="res://NPC/Ent/Art/idle.png" id="2_cf3p5"]
-[ext_resource type="Texture2D" uid="uid://cusskea73laj5" path="res://NPC/Ent/Art/hurt.png" id="2_eghve"]
+[ext_resource type="Texture2D" uid="uid://c0un4oks7mdhd" path="res://NPC/Ent/Art/death.png" id="2_1udl5"]
+[ext_resource type="Texture2D" uid="uid://bboxrofxehgf5" path="res://NPC/Ent/Art/walk.png" id="2_2jeby"]
+[ext_resource type="Texture2D" uid="uid://bjvu0rkfcnl3p" path="res://NPC/Ent/Art/idle.png" id="2_cf3p5"]
+[ext_resource type="Texture2D" uid="uid://bqli545xmuxkc" path="res://NPC/Ent/Art/hurt.png" id="2_eghve"]
 [ext_resource type="Script" path="res://NPC/Enemy_Bee/States/Enemy_Walk.gd" id="2_igakw"]
-[ext_resource type="Texture2D" uid="uid://d3my5tp66q1og" path="res://NPC/Ent/Art/attack.png" id="2_uld6c"]
+[ext_resource type="Texture2D" uid="uid://nyl5airy688q" path="res://NPC/Ent/Art/attack.png" id="2_uld6c"]
 [ext_resource type="Script" path="res://NPC/Enemy_Bee/States/Enemy_Attack_State.gd" id="3_tslgt"]
 [ext_resource type="Script" path="res://NPC/Enemy_Bee/States/Enemy_Hurt_State.gd" id="4_i0iwa"]
 [ext_resource type="Script" path="res://NPC/Enemy_Bee/States/Enemy_Dead_State.gd" id="5_jwthd"]
@@ -334,9 +334,6 @@ libraries = {
 }
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_x54oo")
-}
 tree_root = SubResource("AnimationNodeStateMachine_r1k3l")
 anim_player = NodePath("../AnimationPlayer")
 parameters/conditions/damage_taken = false

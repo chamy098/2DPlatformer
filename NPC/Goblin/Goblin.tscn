@@ -2,12 +2,12 @@
 
 [ext_resource type="Script" path="res://NPC/Enemy_Bee/States/EnemyStateMachine.gd" id="1_idvs0"]
 [ext_resource type="Script" path="res://NPC/Scripts/NPC_Melee.gd" id="1_nmm2y"]
-[ext_resource type="Texture2D" uid="uid://de1vj8btvc5is" path="res://NPC/Goblin/Art/attack.png" id="2_48s1p"]
+[ext_resource type="Texture2D" uid="uid://bq1uusqmv8k5c" path="res://NPC/Goblin/Art/attack.png" id="2_48s1p"]
 [ext_resource type="Script" path="res://NPC/Enemy_Bee/States/Enemy_Walk.gd" id="2_61itv"]
-[ext_resource type="Texture2D" uid="uid://dwqmo6j5q6645" path="res://NPC/Goblin/Art/run.png" id="2_a1df2"]
-[ext_resource type="Texture2D" uid="uid://d1imeefr0dgd2" path="res://NPC/Goblin/Art/idle.png" id="2_mvnku"]
-[ext_resource type="Texture2D" uid="uid://dr47f6x21oy3r" path="res://NPC/Goblin/Art/death.png" id="2_qkxes"]
-[ext_resource type="Texture2D" uid="uid://cpgdfm8uhrhkd" path="res://NPC/Goblin/Art/hurt.png" id="2_sh307"]
+[ext_resource type="Texture2D" uid="uid://drndgof60uyf" path="res://NPC/Goblin/Art/run.png" id="2_a1df2"]
+[ext_resource type="Texture2D" uid="uid://dig1isacwdc71" path="res://NPC/Goblin/Art/idle.png" id="2_mvnku"]
+[ext_resource type="Texture2D" uid="uid://18ng1wbfejsy" path="res://NPC/Goblin/Art/death.png" id="2_qkxes"]
+[ext_resource type="Texture2D" uid="uid://ynjowi46752n" path="res://NPC/Goblin/Art/hurt.png" id="2_sh307"]
 [ext_resource type="Script" path="res://NPC/Enemy_Bee/States/Enemy_Attack_State.gd" id="3_acgsp"]
 [ext_resource type="Script" path="res://NPC/Enemy_Bee/States/Enemy_Hurt_State.gd" id="4_japwt"]
 [ext_resource type="Script" path="res://NPC/Enemy_Bee/States/Enemy_Dead_State.gd" id="5_btg2n"]
@@ -332,9 +332,6 @@ libraries = {
 }
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_akn2m")
-}
 tree_root = SubResource("AnimationNodeStateMachine_t66u6")
 anim_player = NodePath("../AnimationPlayer")
 parameters/conditions/damage_taken = false

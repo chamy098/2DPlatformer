@@ -1,9 +1,9 @@
 [gd_scene load_steps=32 format=3 uid="uid://bpiojyuxbq4on"]
 
 [ext_resource type="Script" path="res://NPC/Enemy/Snail.gd" id="1_q57wd"]
-[ext_resource type="Texture2D" uid="uid://mthqd1bhkjxa" path="res://art/Mob/Snail/Dead-Sheet.png" id="1_qwjvk"]
-[ext_resource type="Texture2D" uid="uid://bx310a3lvhtfd" path="res://art/Mob/Snail/Hide-Sheet.png" id="2_nbkjk"]
-[ext_resource type="Texture2D" uid="uid://tbemjed6ur3e" path="res://art/Mob/Snail/walk-Sheet.png" id="3_s1hfp"]
+[ext_resource type="Texture2D" uid="uid://ddome6yfxjss1" path="res://art/Mob/Snail/Dead-Sheet.png" id="1_qwjvk"]
+[ext_resource type="Texture2D" uid="uid://c4p7ic8yv1kj1" path="res://art/Mob/Snail/Hide-Sheet.png" id="2_nbkjk"]
+[ext_resource type="Texture2D" uid="uid://c0xbnm065efqu" path="res://art/Mob/Snail/walk-Sheet.png" id="3_s1hfp"]
 [ext_resource type="Script" path="res://NPC/Enemy/HealthBar.gd" id="5_ghym5"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_by7yh"]

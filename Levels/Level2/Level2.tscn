@@ -1,15 +1,15 @@
-[gd_scene load_steps=37 format=3 uid="uid://dq4y3kfwlojoc"]
+[gd_scene load_steps=38 format=3 uid="uid://dq4y3kfwlojoc"]
 
 [ext_resource type="Script" path="res://Levels/Level1/level_1.gd" id="1_dfp42"]
-[ext_resource type="Texture2D" uid="uid://bh7lmrxo7xv1t" path="res://Levels/Level2/Art/Background.png" id="1_e5bmo"]
-[ext_resource type="Texture2D" uid="uid://dctgx5nf5i1kx" path="res://art/Assets/castle_tiles.png" id="2_0aime"]
-[ext_resource type="Texture2D" uid="uid://oxp36ru4ovah" path="res://Levels/Level2/Art/sky.png" id="2_3jj5s"]
-[ext_resource type="Texture2D" uid="uid://bdt01ricn0dse" path="res://art/Assets/grass_tiles.png" id="2_drvun"]
+[ext_resource type="Texture2D" uid="uid://ow2riw8u2mvx" path="res://Levels/Level2/Art/Background.png" id="1_e5bmo"]
+[ext_resource type="Texture2D" uid="uid://hkdf1hn5iad8" path="res://art/Assets/castle_tiles.png" id="2_0aime"]
+[ext_resource type="Texture2D" uid="uid://de4osnv718fwu" path="res://Levels/Level2/Art/sky.png" id="2_3jj5s"]
+[ext_resource type="Texture2D" uid="uid://dd8kqffvq5bsw" path="res://art/Assets/grass_tiles.png" id="2_drvun"]
 [ext_resource type="PackedScene" uid="uid://fi4vsumk5gmp" path="res://Levels/DeathSpace/DeathSpace.tscn" id="2_ky5lr"]
-[ext_resource type="Texture2D" uid="uid://dhptj3wphrj8k" path="res://art/Assets/Ground_grass_0000_tile.png" id="3_7cic1"]
+[ext_resource type="Texture2D" uid="uid://csf1n8k06gnj4" path="res://art/Assets/Ground_grass_0000_tile.png" id="3_7cic1"]
 [ext_resource type="PackedScene" uid="uid://cbq4r72ln4f0t" path="res://Character/Knight/Knight.tscn" id="3_fgeh8"]
 [ext_resource type="PackedScene" uid="uid://hy0plgo5rpg5" path="res://NPC/Goblin/Goblin.tscn" id="4_itiet"]
-[ext_resource type="Texture2D" uid="uid://pjl0h1t10vxp" path="res://art/Assets/water_tiles.png" id="5_yn8pl"]
+[ext_resource type="Texture2D" uid="uid://cot7ugoj11jgd" path="res://art/Assets/water_tiles.png" id="5_yn8pl"]
 [ext_resource type="Resource" uid="uid://dl2q4034or5gy" path="res://Misc/Inventory/test_inv.tres" id="8_ogpgi"]
 [ext_resource type="PackedScene" uid="uid://wmgnwbmwa00" path="res://Misc/Chest/Chest.tscn" id="9_23trn"]
 [ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Inventory_data_equip.gd" id="9_ig5xr"]
@@ -17,9 +17,9 @@
 [ext_resource type="PackedScene" uid="uid://cy4prm78r6sh5" path="res://Levels/HUD/hud.tscn" id="11_hbqyp"]
 [ext_resource type="Script" path="res://Misc/Inventory/InventoryInterface.gd" id="12_ymn30"]
 [ext_resource type="PackedScene" uid="uid://b3px8nw1axvp0" path="res://Misc/Inventory/Inventory.tscn" id="13_62fwu"]
-[ext_resource type="Texture2D" uid="uid://6u1lkwnadcph" path="res://Misc/Inventory/art/beige_bg.png" id="14_angn2"]
+[ext_resource type="Texture2D" uid="uid://da50e34hj65k3" path="res://Misc/Inventory/art/beige_bg.png" id="14_angn2"]
 [ext_resource type="PackedScene" uid="uid://bblodtm23k66p" path="res://Misc/Inventory/EquipInventory.tscn" id="15_iav1r"]
-[ext_resource type="Texture2D" uid="uid://b866vcqcy3lj8" path="res://Misc/Inventory/art/vertical_bg.png" id="16_tak56"]
+[ext_resource type="Texture2D" uid="uid://b10fsy8mllv84" path="res://Misc/Inventory/art/vertical_bg.png" id="16_tak56"]
 [ext_resource type="PackedScene" uid="uid://dcakclbwkwrhy" path="res://Levels/HUD/PlayerInfo/PlayerInfo.tscn" id="17_aqoq1"]
 [ext_resource type="PackedScene" uid="uid://bdq65y40smyok" path="res://Misc/Inventory/slot/Slot.tscn" id="18_enmww"]
 [ext_resource type="PackedScene" uid="uid://wf8i17d5javm" path="res://NPC/Ent/Ent.tscn" id="22_jglxd"]
@@ -28,6 +28,7 @@
 [ext_resource type="PackedScene" uid="uid://b301ahaj7dwm2" path="res://Misc/Pick_Up_Item/PickUpItem.tscn" id="26_xfd5q"]
 [ext_resource type="Resource" uid="uid://bxx26xc8pskn3" path="res://Misc/Items/Sword1.tres" id="27_hcm1i"]
 [ext_resource type="Script" path="res://Misc/Inventory/data_scripts/Slot_data.gd" id="28_s6s5s"]
+[ext_resource type="PackedScene" uid="uid://bc2gbx4gaa4ax" path="res://NPC/Dworf/Dworf.tscn" id="29_yit61"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2gn6a"]
 texture = ExtResource("2_0aime")
@@ -9471,6 +9472,9 @@ position = Vector2(1080, 616)
 [node name="Item" parent="." instance=ExtResource("26_xfd5q")]
 position = Vector2(376, 848)
 slot_data = SubResource("Resource_xudgx")
+
+[node name="Dworf" parent="." instance=ExtResource("29_yit61")]
+position = Vector2(655, 846)
 
 [connection signal="drop_slot_data" from="Hud/InventoryInterface" to="." method="_on_inventory_interface_drop_slot_data"]
 [connection signal="gui_input" from="Hud/InventoryInterface" to="Hud/InventoryInterface" method="_on_gui_input"]
